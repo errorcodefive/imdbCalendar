@@ -45,15 +45,15 @@ for i in range(0,9):
 		today_month = 1
 		today_year = int(today_year)+1
 		
-	print ("URL:" + url)
+	
 	r = opener.open(url)
 	f = open("raw_html.html", 'w')
-	print "Received raw html"
+
 	data = r.read()
-	soup = BeautifulSoup(data)
+	soup = BeautifulSoup(data, 'lxml')
 	rawHTML=soup.prettify().encode('utf8')
 	f.write(rawHTML)
-	print "HTML Written"
+
 	f.close
 
 
@@ -84,15 +84,18 @@ for i in range(0,9):
 				tempMov.IMDB = temp[7:16]
 		if tempMov.name:
 			movieClass.append(tempMov)
-		
+			
 print "Movie Info Created"
+
+
 
 cal = Calendar()
 cal.add('prodid', 'IMDB Movie Releases')
 cal.add('version', '1.0')
-
+movie_count = 0
 for m in movieClass:
-	
+	movie_count +=1
+	print "Movie Count: " + str(movie_count)
 	url = "http://www.imdb.com/title/"+m.IMDB
 	print "Movie URL: " + url
 	r = opener.open(url)
@@ -102,7 +105,8 @@ for m in movieClass:
 	try:
 		m.temp = mSoup.find(name = "meta", itemprop="datePublished")['content']
 	except TypeError:
-		break
+		print ("EROROROROROR")
+		
 
 	print m.temp
 	if len(m.temp)>8:
