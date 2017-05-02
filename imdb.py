@@ -95,35 +95,38 @@ cal.add('version', '1.0')
 movie_count = 0
 for m in movieClass:
 	movie_count +=1
+	getError = False
 	print "Movie Count: " + str(movie_count)
 	url = "http://www.imdb.com/title/"+m.IMDB
 	print "Movie URL: " + url
 	r = opener.open(url)
 	mData = r.read()
-	mSoup = BeautifulSoup(mData)
+	mSoup = BeautifulSoup(mData, 'lxml')
 	print "Movie HTML Loaded"
 	try:
 		m.temp = mSoup.find(name = "meta", itemprop="datePublished")['content']
 	except TypeError:
-		print ("EROROROROROR")
+		getError = True
+		print "Error"
 		
-
-	print m.temp
-	if len(m.temp)>8:
-		m.rel_year = m.temp[:4]
-		m.rel_month=m.temp[5:7]
-		m.rel_day=m.temp[8:]
-		print"Adding to calendar"
-		event = Event()
-		event.add('summary', m.name)
-		
-		print m.name
-		
-		event.add('description',m.outToString()+"Link:"+url)
-		event.add('dtstart',datetime.datetime(int(m.rel_year),int(m.rel_month),int(m.rel_day),21,0,0))
-		event.add('dtend',datetime.datetime(int(m.rel_year),int(m.rel_month),int(m.rel_day),22,0,0))
-		event.add('dtstamp',datetime.datetime.now())
-		cal.add_component(event)
+	if getError == False:
+		print m.temp
+		if len(m.temp)>8:
+			m.rel_year = m.temp[:4]
+			m.rel_month=m.temp[5:7]
+			m.rel_day=m.temp[8:]
+			print"Adding to calendar"
+			event = Event()
+			event.add('summary', m.name)
+			
+			print m.name
+			print "\n"
+			
+			event.add('description',m.outToString()+"Link:"+url)
+			event.add('dtstart',datetime.datetime(int(m.rel_year),int(m.rel_month),int(m.rel_day),21,0,0))
+			event.add('dtend',datetime.datetime(int(m.rel_year),int(m.rel_month),int(m.rel_day),22,0,0))
+			event.add('dtstamp',datetime.datetime.now())
+			cal.add_component(event)
 f2=open('IMDB.ics','wb')
 f2.write(cal.to_ical())
 f2.close()
