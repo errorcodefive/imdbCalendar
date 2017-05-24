@@ -5,42 +5,41 @@ BEGIN:VEVENT
 SUMMARY:Guardians of the Galaxy Vol. 2 (2017)
 DTSTART;VALUE=DATE-TIME:20170505T210000
 DTEND;VALUE=DATE-TIME:20170505T220000
-DTSTAMP;VALUE=DATE-TIME:20170502T160839Z
+DTSTAMP;VALUE=DATE-TIME:20170524T120313Z
 DESCRIPTION:Rating: PG\nGenre: Action | Adventure | Sci-Fi |\nDescription:
-  Set to the backdrop of Awesome Mixtape #2\, 'Guardians of the Galaxy Vol.
-  2' continues the team's adventures as they unravel the mystery of Peter Q
- uill's true parentage.\nDirector: James Gunn\nActors: Chris Pratt | Zoe Sa
- ldana | Dave Bautista | Vin Diesel |Link:http://www.imdb.com/title/tt38961
- 98
+  The Guardians must fight to keep their newfound family together as they u
+ nravel the mystery of Peter Quill's true parentage.\nDirector: James Gunn\
+ nActors: Chris Pratt | Zoe Saldana | Dave Bautista | Vin Diesel |Link:http
+ ://www.imdb.com/title/tt3896198
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:The Lovers (2017)
 DTSTART;VALUE=DATE-TIME:20170505T210000
 DTEND;VALUE=DATE-TIME:20170505T220000
-DTSTAMP;VALUE=DATE-TIME:20170502T160839Z
-DESCRIPTION:Rating: \nGenre: Comedy |\nDescription: Debra Winger and Tracy
-  Letts play a long-married\, dispassionate couple who are both in the mids
- t of serious affairs. But on the brink of calling it quits\, a spark betwe
- en them suddenly reignites\, leading them into an impulsive romance.\nDire
- ctor: Azazel Jacobs\nActors: Debra Winger | Tracy Letts | Aidan Gillen | M
- elora Walters |Link:http://www.imdb.com/title/tt5770620
+DTSTAMP;VALUE=DATE-TIME:20170524T120314Z
+DESCRIPTION:Rating: 14A\nGenre: Comedy |\nDescription: Debra Winger and Tr
+ acy Letts play a long-married\, dispassionate couple who are both in the m
+ idst of serious affairs. But on the brink of calling it quits\, a spark be
+ tween them suddenly reignites\, leading them into an impulsive romance.\nD
+ irector: Azazel Jacobs\nActors: Debra Winger | Tracy Letts | Aidan Gillen 
+ | Melora Walters |Link:http://www.imdb.com/title/tt5770620
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:The Dinner (2017)
 DTSTART;VALUE=DATE-TIME:20170505T210000
 DTEND;VALUE=DATE-TIME:20170505T220000
-DTSTAMP;VALUE=DATE-TIME:20170502T160840Z
+DTSTAMP;VALUE=DATE-TIME:20170524T120315Z
 DESCRIPTION:Rating: 14A\nGenre: Drama | Mystery | Thriller |\nDescription:
-  A look at how far parents will go to protect their children. Feature film
-  based on a novel by Herman Koch.\nDirector: Oren Moverman\nActors: Richar
- d Gere | Laura Linney | Steve Coogan | Rebecca Hall |Link:http://www.imdb.
- com/title/tt3203620
+  Two sets of wealthy parents meet for dinner to decide what to do about a 
+ crime their sons have committed.\nDirector: Oren Moverman\nActors: Richard
+  Gere | Laura Linney | Steve Coogan | Rebecca Hall |Link:http://www.imdb.c
+ om/title/tt3203620
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3 Generations (2015)
 DTSTART;VALUE=DATE-TIME:20160929T210000
 DTEND;VALUE=DATE-TIME:20160929T220000
-DTSTAMP;VALUE=DATE-TIME:20170502T160841Z
+DTSTAMP;VALUE=DATE-TIME:20170524T120316Z
 DESCRIPTION:Rating: \nGenre: Drama |\nDescription: After Ray decides to tr
  ansition from female to male\, Ray's mother\, Maggie\, must come to terms 
  with the decision while tracking down Ray's biological father to get his l
@@ -51,104 +50,1495 @@ BEGIN:VEVENT
 SUMMARY:Mr. Chibbs (2017)
 DTSTART;VALUE=DATE-TIME:20170503T210000
 DTEND;VALUE=DATE-TIME:20170503T220000
-DTSTAMP;VALUE=DATE-TIME:20170502T160842Z
-DESCRIPTION:Rating: \nGenre: Documentary |\nDescription: Ten years after r
- etirement from a career as a professional athlete\, Kenny Anderson finds t
- hat basketball is easy\, it's life that's hard. Still reeling from his mot
- her's death\, the former New York City high-school prodigy and NBA All-Sta
- r loses a cherished coaching position\, sending him into a midlife crisis.
-  Facing his personal demons head-on\, the charismatic Anderson must come t
- o terms with his past in order to find a way forward.\nDirector: Jill Camp
- bell\nActors: Kenny Anderson | Natasha Anderson | Nate Archibald | Tiki Ba
- rber |Link:http://www.imdb.com/title/tt4633340
+DTSTAMP;VALUE=DATE-TIME:20170524T120317Z
+DESCRIPTION:Rating: \nGenre: Documentary |\nDescription: "Mr. Chibbs" is a
+ n observational feature length documentary that follows NBA All-Star Kenny
+  Anderson\, in the midst of a mid life crisis\, dealing with drinking issu
+ es\, attempting to get a job\, and on a journey to find himself ten years 
+ post retirement. Everything came easy\, but when he lost it all\, he had t
+ o figure out who he was minus his famous handle. A story about society and
+  its prodigies. Featuring Kenny Anderson\, Natasha Anderson\, David Falk\,
+ Kenny Smith\, Vince Smith\, Coach Bobby Cremins\, Coach Bobby Hurley\, Pie
+ rre Turner and Kenny Anderson Jr.\nDirector: Jill Campbell\nActors: Kenny 
+ Anderson | Natasha Anderson | Nate Archibald | Tiki Barber |Link:http://ww
+ w.imdb.com/title/tt4633340
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:King Arthur: Legend of the Sword (2017)
-DTSTART;VALUE=DATE-TIME:20170511T210000
-DTEND;VALUE=DATE-TIME:20170511T220000
-DTSTAMP;VALUE=DATE-TIME:20170502T160843Z
+DTSTART;VALUE=DATE-TIME:20170512T210000
+DTEND;VALUE=DATE-TIME:20170512T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120318Z
 DESCRIPTION:Rating: 14A\nGenre: Action | Adventure | Drama | Fantasy |\nDe
  scription: Robbed of his birthright\, Arthur comes up the hard way in the 
  back alleys of the city. But once he pulls the sword from the stone\, he i
  s forced to acknowledge his true legacy - whether he likes it or not.\nDir
- ector: Guy Ritchie\nActors: Charlie Hunnam | Poppy Delevingne | Annabelle 
- Wallis | Katie McGrath |Link:http://www.imdb.com/title/tt1972591
+ ector: Guy Ritchie\nActors: Charlie Hunnam | Astrid Bergès-Frisbey | Jude
+  Law | Djimon Hounsou |Link:http://www.imdb.com/title/tt1972591
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Snatched (2017)
 DTSTART;VALUE=DATE-TIME:20170512T210000
 DTEND;VALUE=DATE-TIME:20170512T220000
-DTSTAMP;VALUE=DATE-TIME:20170502T160844Z
-DESCRIPTION:Rating: \nGenre: Action | Comedy |\nDescription: When her boyf
- riend dumps her before their exotic vacation\, a young woman persuades her
-  ultra-cautious mother to travel with her to paradise\, with unexpected re
- sults.\nDirector: Jonathan Levine\nActors: Amy Schumer | Goldie Hawn | Ike
-  Barinholtz | Joan Cusack |Link:http://www.imdb.com/title/tt2334871
+DTSTAMP;VALUE=DATE-TIME:20170524T120319Z
+DESCRIPTION:Rating: 14A\nGenre: Action | Comedy |\nDescription: When her b
+ oyfriend dumps her before their exotic vacation\, a young woman persuades 
+ her ultra-cautious mother to travel with her to paradise\, with unexpected
+  results.\nDirector: Jonathan Levine\nActors: Amy Schumer | Goldie Hawn | 
+ Kim Caramele | Raven Goodwin |Link:http://www.imdb.com/title/tt2334871
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Lowriders (2016)
 DTSTART;VALUE=DATE-TIME:20170512T210000
 DTEND;VALUE=DATE-TIME:20170512T220000
-DTSTAMP;VALUE=DATE-TIME:20170502T160845Z
+DTSTAMP;VALUE=DATE-TIME:20170524T120320Z
 DESCRIPTION:Rating: \nGenre: Drama |\nDescription: A young street artist i
  n East Los Angeles is caught between his father's obsession with lowrider 
  car culture\, his ex-felon brother and his need for self-expression.\nDire
- ctor: Ricardo de Montreuil\nActors: Melissa Benoist | Eva Longoria | Theo 
- Rossi | Demián Bichir |Link:http://www.imdb.com/title/tt1366338
+ ctor: Ricardo de Montreuil\nActors: Gabriel Chavarria | Demián Bichir | T
+ heo Rossi | Tony Revolori |Link:http://www.imdb.com/title/tt1366338
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:The Wall (2017)
-DTSTART;VALUE=DATE-TIME:20170512T210000
-DTEND;VALUE=DATE-TIME:20170512T220000
-DTSTAMP;VALUE=DATE-TIME:20170502T160845Z
-DESCRIPTION:Rating: \nGenre: Drama | Thriller | War |\nDescription: Two Am
- erican Soldiers are trapped by a lethal sniper\, with only an unsteady wal
- l between them.\nDirector: Doug Liman\nActors: Aaron Taylor-Johnson | John
-  Cena | Spencer Thomas | Laith Nakli |Link:http://www.imdb.com/title/tt421
- 8696
+DTSTART;VALUE=DATE-TIME:20170518T210000
+DTEND;VALUE=DATE-TIME:20170518T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120321Z
+DESCRIPTION:Rating: 14A\nGenre: Drama | Thriller | War |\nDescription: Two
+  American Soldiers are trapped by a lethal sniper\, with only an unsteady 
+ wall between them.\nDirector: Doug Liman\nActors: Aaron Taylor-Johnson | J
+ ohn Cena | Laith Nakli |Link:http://www.imdb.com/title/tt4218696
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bonjour Anne (2016)
 DTSTART;VALUE=DATE-TIME:20170526T210000
 DTEND;VALUE=DATE-TIME:20170526T220000
-DTSTAMP;VALUE=DATE-TIME:20170502T160846Z
-DESCRIPTION:Rating: \nGenre: Comedy | Romance |\nDescription: Anne is at a
-  crossroads in her life. Long married to a successful\, driven but inatten
- tive movie producer\, she unexpectedly finds herself taking a car trip fro
- m Cannes to Paris with a business associate of her husband. What should be
-  a seven-hour drive turns into a carefree two-day adventure replete with d
- iversions involving picturesque sights\, fine food and wine\, humor\, wisd
- om and romance\, reawakening Anne's senses and giving her a new lust for l
- ife.\nDirector: Eleanor Coppola\nActors: Diane Lane | Alec Baldwin | Arnau
- d Viard | Cédric Monnet |Link:http://www.imdb.com/title/tt4429194
+DTSTAMP;VALUE=DATE-TIME:20170524T120322Z
+DESCRIPTION:Rating: G\nGenre: Comedy | Drama | Romance |\nDescription: Ann
+ e is at a crossroads in her life. Long married to a successful\, driven bu
+ t inattentive movie producer\, she unexpectedly finds herself taking a car
+  trip from Cannes to Paris with a business associate of her husband. What 
+ should be a seven-hour drive turns into a carefree two-day adventure reple
+ te with diversions involving picturesque sights\, fine food and wine\, hum
+ or\, wisdom and romance\, reawakening Anne's senses and giving her a new l
+ ust for life.\nDirector: Eleanor Coppola\nActors: Diane Lane | Alec Baldwi
+ n | Arnaud Viard | Linda Gegusch |Link:http://www.imdb.com/title/tt4429194
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Meri Pyaari Bindu (2017)
 DTSTART;VALUE=DATE-TIME:20170512T210000
 DTEND;VALUE=DATE-TIME:20170512T220000
-DTSTAMP;VALUE=DATE-TIME:20170502T160847Z
-DESCRIPTION:Rating: \nGenre: Drama | Music | Romance |\nDescription: A suc
- cessful writer\, Abhimanyu Roy who is stuck with a writers block returns t
- o his roots to write an old-fashioned love story. The writers block is cal
- led Bindu who is the love of his life but he has lost contact with her. In
-  his house\, Abhimanyu stumbles across an old audio cassette of their favo
- rite playlist\, it sends him down memory lane - and as he waltzes in and o
- ut of his past and present through the songs in the mixed tape\, he finall
- y faces reality and reconnects with his roots\, with his family and his no
- vel starts writing itself.\nDirector: Akshay Roy\nActors: Parineeti Chopra
-  | Ayushmann Khurrana | Abish Mathew | Aparajita Adhya |Link:http://www.im
- db.com/title/tt5472374
+DTSTAMP;VALUE=DATE-TIME:20170524T120323Z
+DESCRIPTION:Rating: PG\nGenre: Drama | Romance |\nDescription: A successfu
+ l writer Abhimanyu Roy\, stuck with writers block\, returns to his roots t
+ o write an old-fashioned love story.\nDirector: Akshay Roy\nActors: Parine
+ eti Chopra | Ayushmann Khurrana | Abish Mathew | Malvika Sitlani |Link:htt
+ p://www.imdb.com/title/tt5472374
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Laavor et hakir (2016)
 DTSTART;VALUE=DATE-TIME:20161027T210000
 DTEND;VALUE=DATE-TIME:20161027T220000
-DTSTAMP;VALUE=DATE-TIME:20170502T160848Z
+DTSTAMP;VALUE=DATE-TIME:20170524T120323Z
 DESCRIPTION:Rating: G\nGenre: Comedy | Romance |\nDescription: When her fi
  ancé bows out on the eve of her wedding\, Michal refuses to cancel the we
  dding arrangements. An Orthodox Jew\, she insists that God will supply her
   a husband. As the clock ticks down.\nDirector: Rama Burshtein\nActors: Da
  fi Alferon | Noa Koler | Oded Leopold | Ronny Merhavi |Link:http://www.imd
  b.com/title/tt5991206
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Generation Iron 2 (2017)
+DTSTART;VALUE=DATE-TIME:20170512T210000
+DTEND;VALUE=DATE-TIME:20170512T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120324Z
+DESCRIPTION:Rating: PG\nGenre: Documentary |\nDescription: Filmmaker Vlad 
+ Yudin follows several body builders as they struggle to find success in a 
+ competitive industry.\nDirector: Vlad Yudin\nActors: Kai Greene | Rich Pia
+ na | Daniel Nyiri | Calum Von Moger |Link:http://www.imdb.com/title/tt6263
+ 642
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Alien: Covenant (2017)
+DTSTART;VALUE=DATE-TIME:20170519T210000
+DTEND;VALUE=DATE-TIME:20170519T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120325Z
+DESCRIPTION:Rating: 14A\nGenre: Horror | Sci-Fi | Thriller |\nDescription:
+  The crew of a colony ship\, bound for a remote planet\, discover an uncha
+ rted paradise with a threat beyond their imagination\, and must attempt a 
+ harrowing escape.\nDirector: Ridley Scott\nActors: Michael Fassbender | Ka
+ therine Waterston | Billy Crudup | Danny McBride |Link:http://www.imdb.com
+ /title/tt2316204
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Diary of a Wimpy Kid: The Long Haul (2017)
+DTSTART;VALUE=DATE-TIME:20170519T210000
+DTEND;VALUE=DATE-TIME:20170519T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120326Z
+DESCRIPTION:Rating: G\nGenre: Comedy | Family |\nDescription: A Heffley fa
+ mily road trip to attend Meemaw's 90th birthday party goes hilariously off
+  course thanks to Greg's newest scheme to get to a video gaming convention
+ .\nDirector: David Bowers\nActors: Jason Drucker | Alicia Silverstone | To
+ m Everett Scott | Charlie Wright |Link:http://www.imdb.com/title/tt6003368
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Everything\, Everything (2017)
+DTSTART;VALUE=DATE-TIME:20170519T210000
+DTEND;VALUE=DATE-TIME:20170519T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120327Z
+DESCRIPTION:Rating: PG\nGenre: Drama | Romance |\nDescription: A teenager 
+ who's spent her whole life confined to her home falls for the boy next doo
+ r.\nDirector: Stella Meghie\nActors: Amandla Stenberg | Nick Robinson | An
+ ika Noni Rose | Ana de la Reguera |Link:http://www.imdb.com/title/tt500171
+ 8
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Kollektivet (2016)
+DTSTART;VALUE=DATE-TIME:20160114T210000
+DTEND;VALUE=DATE-TIME:20160114T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120328Z
+DESCRIPTION:Rating: 14A\nGenre: Drama |\nDescription: A story about the cl
+ ash between personal desires\, solidarity and tolerance in a Danish commun
+ e in the 1970s.\nDirector: Thomas Vinterberg\nActors: Ulrich Thomsen | Far
+ es Fares | Trine Dyrholm | Julie Agnete Vang |Link:http://www.imdb.com/tit
+ le/tt3082854
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wakefield (2016)
+DTSTART;VALUE=DATE-TIME:20170519T210000
+DTEND;VALUE=DATE-TIME:20170519T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120328Z
+DESCRIPTION:Rating: \nGenre: Drama |\nDescription: A man's nervous breakdo
+ wn causes him to leave his wife and live in his attic for several months.\
+ nDirector: Robin Swicord\nActors: Bryan Cranston | Jennifer Garner | Bever
+ ly D'Angelo | Jason O'Mara |Link:http://www.imdb.com/title/tt5195412
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pirates of the Caribbean: Dead Men Tell No Tales (2017)
+DTSTART;VALUE=DATE-TIME:20170526T210000
+DTEND;VALUE=DATE-TIME:20170526T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120329Z
+DESCRIPTION:Rating: PG\nGenre: Action | Adventure | Fantasy |\nDescription
+ : Captain Jack Sparrow searches for the trident of Poseidon.\nDirector: Jo
+ achim Rønning\nActors: Johnny Depp | Geoffrey Rush | Javier Bardem | Orla
+ ndo Bloom |Link:http://www.imdb.com/title/tt1790809
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Baywatch (2017)
+DTSTART;VALUE=DATE-TIME:20170525T210000
+DTEND;VALUE=DATE-TIME:20170525T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120330Z
+DESCRIPTION:Rating: 14A\nGenre: Action | Comedy | Drama |\nDescription: De
+ voted lifeguard Mitch Buchanan butts heads with a brash new recruit. Toget
+ her\, they uncover a local criminal plot that threatens the future of the 
+ Bay.\nDirector: Seth Gordon\nActors: Dwayne Johnson | Zac Efron | Alexandr
+ a Daddario | Priyanka Chopra |Link:http://www.imdb.com/title/tt1469304
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Long Strange Trip (2017)
+DTSTART;VALUE=DATE-TIME:20170526T210000
+DTEND;VALUE=DATE-TIME:20170526T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120331Z
+DESCRIPTION:Rating: \nGenre: Documentary |\nDescription: The tale of the G
+ rateful Dead is inspiring\, complicated\, and downright messy. A tribe of 
+ contrarians\, they made art out of open-ended chaos and inadvertently achi
+ eved success on their own terms. Never-before-seen footage and interviews 
+ offer this unprecedented and unvarnished look at the life of the Dead.\nDi
+ rector: Amir Bar-Lev\nActors: Tom Constanten | Sam Cutler | Jerry Garcia |
+  Donna Godchaux |Link:http://www.imdb.com/title/tt4143508
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Buena Vista Social Club: Adios (2017)
+DTSTART;VALUE=DATE-TIME:20170526T210000
+DTEND;VALUE=DATE-TIME:20170526T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120332Z
+DESCRIPTION:Rating: \nGenre: Documentary |\nDescription: Revisit with the 
+ remaining original members of the Buena Vista Social Club and explore thei
+ r contribution to the unknown history of Cuba.\nDirector: Lucy Walker\nAct
+ ors: Manuel 'Guajiro' Mirabal | Guajirito Mirabal | Ibrahim Ferrer | Omara
+  Portuondo |Link:http://www.imdb.com/title/tt4653272
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Drone (2017)
+DTSTART;VALUE=DATE-TIME:20170526T210000
+DTEND;VALUE=DATE-TIME:20170526T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120333Z
+DESCRIPTION:Rating: \nGenre: Thriller |\nDescription: Ideologies collide w
+ ith fatal results when a military drone contractor meets an enigmatic Paki
+ stani businessman.\nDirector: Jason Bourque\nActors: Sean Bean | Mary McCo
+ rmack | Joel David Moore | Sharon Taylor |Link:http://www.imdb.com/title/t
+ t5352846
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wonder Woman (2017)
+DTSTART;VALUE=DATE-TIME:20170602T210000
+DTEND;VALUE=DATE-TIME:20170602T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120333Z
+DESCRIPTION:Rating: PG\nGenre: Action | Adventure | Fantasy | Sci-Fi |\nDe
+ scription: Before she was Wonder Woman she was Diana\, princess of the Ama
+ zons\, trained warrior. When a pilot crashes and tells of conflict in the 
+ outside world\, she leaves home to fight a war to end all wars\, discoveri
+ ng her full powers and true destiny.\nDirector: Patty Jenkins\nActors: Gal
+  Gadot | David Thewlis | Robin Wright | Chris Pine |Link:http://www.imdb.c
+ om/title/tt0451279
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Captain Underpants (2017)
+DTSTART;VALUE=DATE-TIME:20170602T210000
+DTEND;VALUE=DATE-TIME:20170602T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120335Z
+DESCRIPTION:Rating: \nGenre: Animation | Action | Comedy | Family |\nDescr
+ iption: Two overly imaginative pranksters named George and Harold\, hypnot
+ ize their principal into thinking he's a ridiculously enthusiastic\, incre
+ dibly dimwitted superhero named Captain Underpants.\nDirector: David Soren
+ \nActors: Jordan Peele | Kevin Hart | Sugar Lyn Beard | Kristen Schaal |Li
+ nk:http://www.imdb.com/title/tt2091256
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dean (2016)
+DTSTART;VALUE=DATE-TIME:20170602T210000
+DTEND;VALUE=DATE-TIME:20170602T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120336Z
+DESCRIPTION:Rating: \nGenre: Comedy | Drama |\nDescription: A comedy about
+  loss\, grief and the redemptive power of love\, Dean is an NY illustrator
+  who falls hard for an LA woman while trying to prevent his father from se
+ lling the family home in the wake of his mother's death.\nDirector: Demetr
+ i Martin\nActors: Asif Ali | Jesaiah Baer | Kathrine Barnes | Kate Berlant
+  |Link:http://www.imdb.com/title/tt3914332
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:3 Idiotas (2017)
+DTSTART;VALUE=DATE-TIME:20170331T210000
+DTEND;VALUE=DATE-TIME:20170331T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120336Z
+DESCRIPTION:Rating: \nGenre: Comedy | Family |\nDescription: A group of fr
+ iends embark on a fun adventure determined to find a college roommate who 
+ disappeared without a trace on graduation day.\nDirector: Carlos Bolado\nA
+ ctors: Martha Higareda | Alfonso Dosal | Christian Vazquez | German Valdez
+  |Link:http://www.imdb.com/title/tt3685624
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Past Life (2016)
+DTSTART;VALUE=DATE-TIME:20161201T210000
+DTEND;VALUE=DATE-TIME:20161201T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120337Z
+DESCRIPTION:Rating: \nGenre: Drama |\nDescription: Past Life tracks the da
+ ring late 1970s odyssey of two sisters - an introverted classical musician
+  and a rambunctious scandal sheet journalist - as they unravel a shocking 
+ wartime mystery that has cast a dark shadow on their entire lives.\nDirect
+ or: Avi Nesher\nActors: Nelly Tagar | Joy Rieger | Doron Tavory | Evgenia 
+ Dodina |Link:http://www.imdb.com/title/tt5787384
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Band Aid (2017)
+DTSTART;VALUE=DATE-TIME:20170609T210000
+DTEND;VALUE=DATE-TIME:20170609T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120339Z
+DESCRIPTION:Rating: \nGenre: Comedy |\nDescription: A couple who can't sto
+ p fighting embark on a last-ditch effort to save their marriage: turning t
+ heir fights into songs and starting a band.\nDirector: Zoe Lister-Jones\nA
+ ctors: Jamie Chung | Zoe Lister-Jones | Brooklyn Decker | Colin Hanks |Lin
+ k:http://www.imdb.com/title/tt5816374
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Vincent N Roxxy (2016)
+DTSTART;VALUE=DATE-TIME:20170602T210000
+DTEND;VALUE=DATE-TIME:20170602T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120340Z
+DESCRIPTION:Rating: \nGenre: Crime | Drama | Thriller |\nDescription: A sm
+ all town loner and a rebellious punk rocker unexpectedly fall in love as t
+ hey are forced on the run and soon discover violence follows them everywhe
+ re.\nDirector: Gary Michael Schultz\nActors: Emile Hirsch | Zoë Kravitz |
+  Zoey Deutch | Emory Cohen |Link:http://www.imdb.com/title/tt3704298
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Mummy (2017)
+DTSTART;VALUE=DATE-TIME:20170609T210000
+DTEND;VALUE=DATE-TIME:20170609T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120341Z
+DESCRIPTION:Rating: \nGenre: Action | Adventure | Fantasy | Horror |\nDesc
+ ription: An ancient princess is awakened from her crypt beneath the desert
+ \, bringing with her malevolence grown over millennia\, and terrors that d
+ efy human comprehension.\nDirector: Alex Kurtzman\nActors: Tom Cruise | So
+ fia Boutella | Annabelle Wallis | Russell Crowe |Link:http://www.imdb.com/
+ title/tt2345759
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Megan Leavey (2017)
+DTSTART;VALUE=DATE-TIME:20170609T210000
+DTEND;VALUE=DATE-TIME:20170609T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120343Z
+DESCRIPTION:Rating: PG\nGenre: Biography | Drama | War |\nDescription: Bas
+ ed on the true life story of a young Marine corporal whose unique discipli
+ ne and bond with her military combat dog saved many lives during their dep
+ loyment in Iraq.\nDirector: Gabriela Cowperthwaite\nActors: Kate Mara | Ge
+ raldine James | Bradley Whitford | Tom Felton |Link:http://www.imdb.com/ti
+ tle/tt4899370
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:It Comes at Night (2017)
+DTSTART;VALUE=DATE-TIME:20170609T210000
+DTEND;VALUE=DATE-TIME:20170609T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120344Z
+DESCRIPTION:Rating: \nGenre: Horror | Mystery |\nDescription: Secure withi
+ n a desolate home as an unnatural threat terrorizes the world\, a man has 
+ established a tenuous domestic order with his wife and son\, but this will
+  soon be put to test when a desperate young family arrives seeking refuge.
+ \nDirector: Trey Edward Shults\nActors: Joel Edgerton | Kelvin Harrison Jr
+ . | Carmen Ejogo | Christopher Abbott |Link:http://www.imdb.com/title/tt46
+ 95012
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Hero (2017)
+DTSTART;VALUE=DATE-TIME:20170609T210000
+DTEND;VALUE=DATE-TIME:20170609T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120344Z
+DESCRIPTION:Rating: PG\nGenre: Comedy | Drama |\nDescription: An ailing mo
+ vie star comes to terms with his past and mortality.\nDirector: Brett Hale
+ y\nActors: Laura Prepon | Krysten Ritter | Nick Offerman | Sam Elliott |Li
+ nk:http://www.imdb.com/title/tt5655222
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Beatriz at Dinner (2017)
+DTSTART;VALUE=DATE-TIME:20170609T210000
+DTEND;VALUE=DATE-TIME:20170609T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120345Z
+DESCRIPTION:Rating: \nGenre: Comedy |\nDescription: A holistic medicine pr
+ actitioner attends a wealthy client's dinner party after her car breaks do
+ wn.\nDirector: Miguel Arteta\nActors: Salma Hayek | Chloë Sevigny | John 
+ Lithgow | Connie Britton |Link:http://www.imdb.com/title/tt5929750
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:My Cousin Rachel (2017)
+DTSTART;VALUE=DATE-TIME:20170609T210000
+DTEND;VALUE=DATE-TIME:20170609T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120346Z
+DESCRIPTION:Rating: PG\nGenre: Drama | Mystery | Romance |\nDescription: A
+  young Englishman plots revenge against his mysterious\, beautiful cousin\
+ , believing that she murdered his guardian. But his feelings become compli
+ cated as he finds himself falling under the beguiling spell of her charms.
+ \nDirector: Roger Michell\nActors: Sam Claflin | Rachel Weisz | Holliday G
+ rainger | Iain Glen |Link:http://www.imdb.com/title/tt4411596
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cars 3 (2017)
+DTSTART;VALUE=DATE-TIME:20170616T210000
+DTEND;VALUE=DATE-TIME:20170616T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120347Z
+DESCRIPTION:Rating: \nGenre: Animation | Adventure | Comedy | Family | Spo
+ rt |\nDescription: Lightning McQueen sets out to prove to a new generation
+  of racers that he's still the best race car in the world.\nDirector: Bria
+ n Fee\nActors: Armie Hammer | Nathan Fillion | Kerry Washington | Owen Wil
+ son |Link:http://www.imdb.com/title/tt3606752
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rough Night (2017)
+DTSTART;VALUE=DATE-TIME:20170623T210000
+DTEND;VALUE=DATE-TIME:20170623T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120347Z
+DESCRIPTION:Rating: \nGenre: Comedy |\nDescription: A group of friends are
+  horrified when the male stripper they hired for a wild bachelorette party
+  in Miami winds up dead.\nDirector: Lucia Aniello\nActors: Scarlett Johans
+ son | Zoë Kravitz | Kate McKinnon | Demi Moore |Link:http://www.imdb.com/
+ title/tt4799050
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:All Eyez on Me (2017)
+DTSTART;VALUE=DATE-TIME:20170616T210000
+DTEND;VALUE=DATE-TIME:20170616T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120348Z
+DESCRIPTION:Rating: \nGenre: Biography | Drama | Music |\nDescription: Tel
+ ls the true and untold story of prolific rapper\, actor\, poet and activis
+ t Tupac Shakur.\nDirector: Benny Boom\nActors: Demetrius Shipp Jr. | Danai
+  Gurira | Kat Graham | Annie Ilonzeh |Link:http://www.imdb.com/title/tt166
+ 6185
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:47 Meters Down (2017)
+DTSTART;VALUE=DATE-TIME:20170525T210000
+DTEND;VALUE=DATE-TIME:20170525T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120349Z
+DESCRIPTION:Rating: \nGenre: Horror | Thriller |\nDescription: Two sisters
+  vacationing in Mexico are trapped in a shark cage at the bottom of the oc
+ ean. With less than an hour of oxygen left and great white sharks circling
+  nearby\, they must fight to survive.\nDirector: Johannes Roberts\nActors:
+  Mandy Moore | Claire Holt | Matthew Modine | Yani Gellman |Link:http://ww
+ w.imdb.com/title/tt2932536
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Book of Henry (2017)
+DTSTART;VALUE=DATE-TIME:20170616T210000
+DTEND;VALUE=DATE-TIME:20170616T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120349Z
+DESCRIPTION:Rating: \nGenre: Drama | Thriller |\nDescription: Sometimes th
+ ings are not always what they seem\, especially in the small suburban town
+  where the Carpenter family lives. Single suburban mother Susan Carpenter 
+ works as a waitress at a diner\, alongside feisty family friend Sheila. He
+ r younger son Peter is a playful 8-year-old. Taking care of everyone and e
+ verything in his own unique way is Susan's older son Henry\, age 11. Prote
+ ctor to his adoring younger brother and tireless supporter of his often se
+ lf-doubting mother - and\, through investments\, of the family as a whole 
+ - Henry blazes through the days like a comet. Susan discovers that the fam
+ ily next door\, which includes Henry's kind classmate Christina\, has a da
+ ngerous secret - and that Henry has devised a surprising plan to help. As 
+ his brainstormed rescue plan for Christina takes shape in thrilling ways\,
+  Susan finds herself at the center of it.\nDirector: Colin Trevorrow\nActo
+ rs: Lee Pace | Naomi Watts | Jacob Tremblay | Dean Norris |Link:http://www
+ .imdb.com/title/tt4572792
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:I\, Daniel Blake (2016)
+DTSTART;VALUE=DATE-TIME:20161021T210000
+DTEND;VALUE=DATE-TIME:20161021T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120351Z
+DESCRIPTION:Rating: 14A\nGenre: Drama |\nDescription: After having suffere
+ d a heart-attack\, a 59-year-old carpenter must fight the bureaucratic for
+ ces of the system in order to receive Employment and Support Allowance.\nD
+ irector: Ken Loach\nActors: Dave Johns | Hayley Squires | Sharon Percy | B
+ riana Shann |Link:http://www.imdb.com/title/tt5168192
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Journey (2016)
+DTSTART;VALUE=DATE-TIME:20170505T210000
+DTEND;VALUE=DATE-TIME:20170505T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120352Z
+DESCRIPTION:Rating: \nGenre: Drama |\nDescription: A fictional account of 
+ the extraordinary story of two implacable enemies in Northern Ireland - fi
+ rebrand Democratic Unionist Party leader Paisley and Sinn Fein politician 
+ Martin McGuinness - who are forced to take a short journey together in whi
+ ch they will take the biggest leap of faith and change the course of histo
+ ry.\nDirector: Nick Hamm\nActors: Freddie Highmore | John Hurt | Toby Step
+ hens | Catherine McCormack |Link:http://www.imdb.com/title/tt4826674
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Transformers: The Last Knight (2017)
+DTSTART;VALUE=DATE-TIME:20170621T210000
+DTEND;VALUE=DATE-TIME:20170621T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120353Z
+DESCRIPTION:Rating: \nGenre: Action | Adventure | Sci-Fi | Thriller |\nDes
+ cription: Humans and Transformers are at war\, Optimus Prime is gone. The 
+ key to saving our future lies buried in the secrets of the past\, in the h
+ idden history of Transformers on Earth.\nDirector: Michael Bay\nActors: La
+ ura Haddock | Mark Wahlberg | Gemma Chan | John Goodman |Link:http://www.i
+ mdb.com/title/tt3371366
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Big Sick (2017)
+DTSTART;VALUE=DATE-TIME:20170714T210000
+DTEND;VALUE=DATE-TIME:20170714T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120354Z
+DESCRIPTION:Rating: \nGenre: Comedy | Romance |\nDescription: A couple dea
+ ls with their cultural differences as their relationship grows.\nDirector:
+  Michael Showalter\nActors: Kumail Nanjiani | Zoe Kazan | Holly Hunter | R
+ ay Romano |Link:http://www.imdb.com/title/tt5462602
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Beguiled (2017)
+DTSTART;VALUE=DATE-TIME:20170630T210000
+DTEND;VALUE=DATE-TIME:20170630T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120355Z
+DESCRIPTION:Rating: \nGenre: Drama | Western |\nDescription: At a girls' s
+ chool in Virginia during the Civil War\, where the young women have been s
+ heltered from the outside world\, a wounded Union soldier is taken in. Soo
+ n\, the house is taken over with sexual tension\, rivalries\, and an unexp
+ ected turn of events.\nDirector: Sofia Coppola\nActors: Kirsten Dunst | Ni
+ cole Kidman | Elle Fanning | Colin Farrell |Link:http://www.imdb.com/title
+ /tt5592248
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Bad Batch (2016)
+DTSTART;VALUE=DATE-TIME:20170623T210000
+DTEND;VALUE=DATE-TIME:20170623T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120355Z
+DESCRIPTION:Rating: \nGenre: Romance | Sci-Fi |\nDescription: A dystopian 
+ love story in a Texas wasteland and set in a community of cannibals.\nDire
+ ctor: Ana Lily Amirpour\nActors: Keanu Reeves | Jason Momoa | Jim Carrey |
+  Diego Luna |Link:http://www.imdb.com/title/tt4334266
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Despicable Me 3 (2017)
+DTSTART;VALUE=DATE-TIME:20170630T210000
+DTEND;VALUE=DATE-TIME:20170630T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120356Z
+DESCRIPTION:Rating: \nGenre: Animation | Action | Adventure | Comedy | Fam
+ ily | Sci-Fi |\nDescription: Gru meets his twin brother Dru he never knew 
+ about.\nDirector: Kyle Balda\nActors: Jenny Slate | Miranda Cosgrove | Kri
+ sten Wiig | Steve Carell |Link:http://www.imdb.com/title/tt3469046
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The House (2017)
+DTSTART;VALUE=DATE-TIME:20170630T210000
+DTEND;VALUE=DATE-TIME:20170630T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120357Z
+DESCRIPTION:Rating: \nGenre: Comedy |\nDescription: A dad convinces his fr
+ iends to start an illegal casino in his basement after he and his wife spe
+ nd their daughter's college fund.\nDirector: Andrew Jay Cohen\nActors: Wil
+ l Ferrell | Allison Tolman | Amy Poehler | Jason Mantzoukas |Link:http://w
+ ww.imdb.com/title/tt4481514
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Baby Driver (2017)
+DTSTART;VALUE=DATE-TIME:20170628T210000
+DTEND;VALUE=DATE-TIME:20170628T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120358Z
+DESCRIPTION:Rating: 14A\nGenre: Action | Crime | Thriller |\nDescription: 
+ After being coerced into working for a crime boss\, a young getaway driver
+  finds himself taking part in a heist doomed to fail.\nDirector: Edgar Wri
+ ght\nActors: Ansel Elgort | Lily James | Jon Hamm | Jamie Foxx |Link:http:
+ //www.imdb.com/title/tt3890160
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amityville: The Awakening (2017)
+DTSTART;VALUE=DATE-TIME:20170630T210000
+DTEND;VALUE=DATE-TIME:20170630T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120359Z
+DESCRIPTION:Rating: \nGenre: Horror | Thriller |\nDescription: A single mo
+ ther moves her three children into a haunted house\, unaware of its bloody
+  history.\nDirector: Franck Khalfoun\nActors: Bella Thorne | Jennifer Morr
+ ison | Cameron Monaghan | Jennifer Jason Leigh |Link:http://www.imdb.com/t
+ itle/tt1935897
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Elser (2015)
+DTSTART;VALUE=DATE-TIME:20150409T210000
+DTEND;VALUE=DATE-TIME:20150409T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120359Z
+DESCRIPTION:Rating: \nGenre: Biography | Drama | War |\nDescription: In No
+ vember 1939\, Georg Elser's attempt to assassinate Adolf Hitler fails\, an
+ d he is arrested. During his confinement\, he recalls the events leading u
+ p to his plot and his reasons for deciding to take such drastic action.\nD
+ irector: Oliver Hirschbiegel\nActors: Christian Friedel | Katharina Schüt
+ tler | Burghart Klaußner | Johann von Bülow |Link:http://www.imdb.com/ti
+ tle/tt1708135
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Little Hours (2017)
+DTSTART;VALUE=DATE-TIME:20170630T210000
+DTEND;VALUE=DATE-TIME:20170630T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120400Z
+DESCRIPTION:Rating: \nGenre: Comedy |\nDescription: A young servant fleein
+ g from his master takes refuge at a convent full of emotionally unstable n
+ uns in the middle ages.\nDirector: Jeff Baena\nActors: Alison Brie | Dave 
+ Franco | Kate Micucci | Aubrey Plaza |Link:http://www.imdb.com/title/tt566
+ 6304
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The B-Side: Elsa Dorfman's Portrait Photography (2016)
+DTSTART;VALUE=DATE-TIME:20170630T210000
+DTEND;VALUE=DATE-TIME:20170630T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120401Z
+DESCRIPTION:Rating: \nGenre: Documentary |\nDescription: A look at the lif
+ e and work of photographer Elsa Dorfman.\nDirector: Errol Morris\nActors: 
+ Elsa Dorfman |Link:http://www.imdb.com/title/tt5952468
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Spider-Man: Homecoming (2017)
+DTSTART;VALUE=DATE-TIME:20170707T210000
+DTEND;VALUE=DATE-TIME:20170707T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120402Z
+DESCRIPTION:Rating: \nGenre: Action | Adventure | Sci-Fi |\nDescription: F
+ ollowing the events of Captain America: Civil War (2016)\, Peter Parker at
+ tempts to balance his life in high school with his career as the web-sling
+ ing superhero Spider-Man.\nDirector: Jon Watts\nActors: Tom Holland | Chri
+ s Evans | Robert Downey Jr. | Martin Starr |Link:http://www.imdb.com/title
+ /tt2250912
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A Ghost Story (2017)
+DTSTART;VALUE=DATE-TIME:20170707T210000
+DTEND;VALUE=DATE-TIME:20170707T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120403Z
+DESCRIPTION:Rating: \nGenre: Drama | Fantasy | Romance |\nDescription: In 
+ this singular exploration of legacy\, love\, loss\, and the enormity of ex
+ istence\, a recently deceased\, white-sheeted ghost returns to his suburba
+ n home to try to reconnect with his bereft wife.\nDirector: David Lowery\n
+ Actors: Sonia Acevedo | Casey Affleck | Carlos Bermudez | McColm Cephas Jr
+ . |Link:http://www.imdb.com/title/tt6265828
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:City of Ghosts (2017)
+DTSTART;VALUE=DATE-TIME:20170707T210000
+DTEND;VALUE=DATE-TIME:20170707T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120404Z
+DESCRIPTION:Rating: \nGenre: Documentary | War |\nDescription: A documenta
+ ry that follows the efforts of "Raqqa Is Being Slaughtered Silently\," a h
+ andful of anonymous activists who banded together after their homeland was
+  taken over by ISIS in 2014. With deeply personal access\, this is the sto
+ ry of a brave group of citizen journalists as they face the realities of l
+ ife undercover\, on the run\, and in exile\, risking their lives to stand 
+ up against one of the greatest evils in the world today.\nDirector: Matthe
+ w Heineman\nActors: Link:http://www.imdb.com/title/tt6333056
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Patti Cake$ (2017)
+DTSTART;VALUE=DATE-TIME:20170818T210000
+DTEND;VALUE=DATE-TIME:20170818T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120405Z
+DESCRIPTION:Rating: \nGenre: Drama |\nDescription: PATTI CAKE$ is centered
+  on aspiring rapper Patricia Dombrowski\, a.k.a. Killa P\, a.k.a. Patti Ca
+ ke$ who is fighting an unlikely quest for glory in her downtrodden hometow
+ n in New Jersey.\nDirector: Geremy Jasper\nActors: Danielle Macdonald | Br
+ idget Everett | Siddharth Dhananjay | Mamoudou Athie |Link:http://www.imdb
+ .com/title/tt6288250
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Santoalla (2016)
+DTSTART;VALUE=DATE-TIME:20160617T210000
+DTEND;VALUE=DATE-TIME:20160617T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120406Z
+DESCRIPTION:Rating: \nGenre: Documentary | Mystery |\nDescription: A Dutch
+  couple\, Martin and Margo Verfondern\, move to a remote Spanish village o
+ f Santoalla to start a new life. There is conflict with the Spanish reside
+ nts resulting in the disappearance of Martin.\nDirector: Andrew Becker\nAc
+ tors: Carlos Rodríguez | Jovita Rodríguez | Julio Rodríguez | Manolo Ro
+ dríguez |Link:http://www.imdb.com/title/tt5816712
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:War for the Planet of the Apes (2017)
+DTSTART;VALUE=DATE-TIME:20170714T210000
+DTEND;VALUE=DATE-TIME:20170714T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120407Z
+DESCRIPTION:Rating: \nGenre: Action | Adventure | Drama | Sci-Fi | Thrille
+ r | War |\nDescription: After the apes suffer unimaginable losses\, Caesar
+  wrestles with his darker instincts and begins his own mythic quest to ave
+ nge his kind.\nDirector: Matt Reeves\nActors: Judy Greer | Woody Harrelson
+  | Andy Serkis | Steve Zahn |Link:http://www.imdb.com/title/tt3450958
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wish Upon (2017)
+DTSTART;VALUE=DATE-TIME:20170714T210000
+DTEND;VALUE=DATE-TIME:20170714T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120408Z
+DESCRIPTION:Rating: \nGenre: Fantasy | Horror | Thriller |\nDescription: A
+  teenage girl discovers a box that carries magic powers and a deadly price
+  for using them.\nDirector: John R. Leonetti\nActors: Sherilyn Fenn | Joey
+  King | Elisabeth Röhm | Ryan Phillippe |Link:http://www.imdb.com/title/t
+ t5322012
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lady Macbeth (2016)
+DTSTART;VALUE=DATE-TIME:20170428T210000
+DTEND;VALUE=DATE-TIME:20170428T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120409Z
+DESCRIPTION:Rating: \nGenre: Drama |\nDescription: Set in 19th century rur
+ al England\, young bride who has been sold into marriage to a middle-aged 
+ man discovers an unstoppable desire within herself as she enters into an a
+ ffair with a work on her estate.\nDirector: William Oldroyd\nActors: Flore
+ nce Pugh | Christopher Fairbank | Cosmo Jarvis | Naomi Ackie |Link:http://
+ www.imdb.com/title/tt4291600
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dunkirk (2017)
+DTSTART;VALUE=DATE-TIME:20170721T210000
+DTEND;VALUE=DATE-TIME:20170721T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120409Z
+DESCRIPTION:Rating: \nGenre: Action | Drama | History | Thriller | War |\n
+ Description: Allied soldiers from Belgium\, the British Empire\, Canada\, 
+ and France are surrounded by the German army and evacuated during a fierce
+  battle in World War II.\nDirector: Christopher Nolan\nActors: Tom Hardy |
+  Cillian Murphy | Kenneth Branagh | Mark Rylance |Link:http://www.imdb.com
+ /title/tt5013056
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Valerian and the City of a Thousand Planets (2017)
+DTSTART;VALUE=DATE-TIME:20170726T210000
+DTEND;VALUE=DATE-TIME:20170726T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120410Z
+DESCRIPTION:Rating: \nGenre: Action | Adventure | Sci-Fi |\nDescription: A
+  dark force threatens Alpha\, a vast metropolis and home to species from a
+  thousand planets. Special operatives Valerian and Laureline must race to 
+ identify the marauding menace and safeguard not just Alpha\, but the futur
+ e of the universe.\nDirector: Luc Besson\nActors: Dane DeHaan | Cara Delev
+ ingne | Clive Owen | John Goodman |Link:http://www.imdb.com/title/tt223982
+ 2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Girls Trip (2017)
+DTSTART;VALUE=DATE-TIME:20170721T210000
+DTEND;VALUE=DATE-TIME:20170721T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120411Z
+DESCRIPTION:Rating: \nGenre: Comedy |\nDescription: When four lifelong fri
+ ends travel to New Orleans for the annual Essence Festival\, sisterhoods a
+ re rekindled\, wild sides are rediscovered\, and there's enough dancing\, 
+ drinking\, brawling\, and romancing to make the Big Easy blush.\nDirector:
+  Malcolm D. Lee\nActors: Kate Walsh | Jada Pinkett Smith | Queen Latifah |
+  Regina Hall |Link:http://www.imdb.com/title/tt3564472
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Emoji Movie (2017)
+DTSTART;VALUE=DATE-TIME:20170728T210000
+DTEND;VALUE=DATE-TIME:20170728T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120411Z
+DESCRIPTION:Rating: \nGenre: Animation | Adventure | Comedy | Family | Sci
+ -Fi |\nDescription: Gene\, a multi-expressional emoji\, sets out on a jour
+ ney to become a normal emoji.\nDirector: Tony Leondis\nActors: Anna Faris 
+ | T.J. Miller | Sofía Vergara | Patrick Stewart |Link:http://www.imdb.com
+ /title/tt4877122
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Atomic Blonde (2017)
+DTSTART;VALUE=DATE-TIME:20170728T210000
+DTEND;VALUE=DATE-TIME:20170728T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120412Z
+DESCRIPTION:Rating: \nGenre: Action | Mystery | Thriller |\nDescription: A
+ n undercover MI6 agent is sent to Berlin during the Cold War to investigat
+ e the murder of a fellow agent and recover a missing list of double agents
+ .\nDirector: David Leitch\nActors: Sofia Boutella | Charlize Theron | Jame
+ s McAvoy | Bill Skarsgård |Link:http://www.imdb.com/title/tt2406566
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:An Inconvenient Sequel: Truth to Power (2017)
+DTSTART;VALUE=DATE-TIME:20170728T210000
+DTEND;VALUE=DATE-TIME:20170728T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120413Z
+DESCRIPTION:Rating: \nGenre: Documentary |\nDescription: A decade after An
+  Inconvenient Truth brought climate change into the heart of popular cultu
+ re comes the follow-up that shows just how close we are to a real energy r
+ evolution.\nDirector: Bonni Cohen\nActors: Al Gore | Barack Obama | Donald
+  J. Trump |Link:http://www.imdb.com/title/tt6322922
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Menashe (2017)
+DTSTART;VALUE=DATE-TIME:20170728T210000
+DTEND;VALUE=DATE-TIME:20170728T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120414Z
+DESCRIPTION:Rating: PG\nGenre: Drama |\nDescription: Within Brooklyn's ult
+ ra-orthodox Jewish community\, a widower battles for custody of his son. A
+  tender drama performed entirely in Yiddish\, the film intimately explores
+  the nature of faith and the price of parenthood.\nDirector: Joshua Z Wein
+ stein\nActors: Menashe Lustig | Yoel Falkowitz |Link:http://www.imdb.com/t
+ itle/tt6333086
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mal de pierres (2016)
+DTSTART;VALUE=DATE-TIME:20161019T210000
+DTEND;VALUE=DATE-TIME:20161019T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120415Z
+DESCRIPTION:Rating: \nGenre: Drama | Romance |\nDescription: In 1950s Fran
+ ce\, Gabrielle is a passionate\, free-spirited woman who is in a loveless 
+ marriage and falls for another man when she is sent away to the Alps to tr
+ eat her kidney stones. Gabrielle yearns to free herself and run away with 
+ André.\nDirector: Nicole Garcia\nActors: Marion Cotillard | Louis Garrel 
+ | Alex Brendemühl | Brigitte Roüan |Link:http://www.imdb.com/title/tt379
+ 4028
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sage femme (2017)
+DTSTART;VALUE=DATE-TIME:20170322T210000
+DTEND;VALUE=DATE-TIME:20170322T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120416Z
+DESCRIPTION:Rating: \nGenre: Drama |\nDescription: A midwife gets unexpect
+ ed news from her father's old mistress.\nDirector: Martin Provost\nActors:
+  Catherine Deneuve | Catherine Frot | Olivier Gourmet | Quentin Dolmaire |
+ Link:http://www.imdb.com/title/tt5348236
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Dark Tower (2017)
+DTSTART;VALUE=DATE-TIME:20170804T210000
+DTEND;VALUE=DATE-TIME:20170804T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120417Z
+DESCRIPTION:Rating: \nGenre: Action | Adventure | Fantasy | Horror | Sci-F
+ i | Western |\nDescription: The Gunslinger\, Roland Deschain\, roams an Ol
+ d West-like landscape where "the world has moved on" in pursuit of the man
+  in black. Also searching for the fabled Dark Tower\, in the hopes that re
+ aching it will preserve his dying world.\nDirector: Nikolaj Arcel\nActors:
+  Katheryn Winnick | Matthew McConaughey | Idris Elba | Abbey Lee |Link:htt
+ p://www.imdb.com/title/tt1648190
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Detroit (2017)
+DTSTART;VALUE=DATE-TIME:20170804T210000
+DTEND;VALUE=DATE-TIME:20170804T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120418Z
+DESCRIPTION:Rating: \nGenre: Drama | History | Thriller |\nDescription: A 
+ police raid in Detroit in 1967 results in one of the largest citizen upris
+ ings in United States history.\nDirector: Kathryn Bigelow\nActors: John Bo
+ yega | Anthony Mackie | Algee Smith | Jacob Latimore |Link:http://www.imdb
+ .com/title/tt5390504
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Midnight Sun (2017)
+DTSTART;VALUE=DATE-TIME:20180126T210000
+DTEND;VALUE=DATE-TIME:20180126T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120419Z
+DESCRIPTION:Rating: \nGenre: Drama | Romance |\nDescription: Based on the 
+ Japanese film\, Midnight Sun centers on Katie\, a 17-year-old sheltered si
+ nce childhood and confined to her house during the day by a rare disease t
+ hat makes even the smallest amount of sunlight deadly. Fate intervenes whe
+ n she meets Charlie and they embark on a summer romance.\nDirector: Scott 
+ Speer\nActors: Bella Thorne | Patrick Schwarzenegger | Rob Riggle | Quinn 
+ Shephard |Link:http://www.imdb.com/title/tt4799066
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Step (2017)
+DTSTART;VALUE=DATE-TIME:20170804T210000
+DTEND;VALUE=DATE-TIME:20170804T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120419Z
+DESCRIPTION:Rating: \nGenre: Documentary |\nDescription: STEP documents th
+ e senior year of a girls' high-school step dance team against the backgrou
+ nd of inner-city Baltimore.\nDirector: Amanda Lipitz\nActors: Paula Dofat 
+ | Cori Grainger | Tayla Solomon |Link:http://www.imdb.com/title/tt5758404
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wind River (2017)
+DTSTART;VALUE=DATE-TIME:20170804T210000
+DTEND;VALUE=DATE-TIME:20170804T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120420Z
+DESCRIPTION:Rating: \nGenre: Action | Crime | Thriller |\nDescription: An 
+ FBI agent teams with the town's veteran game tracker to investigate a murd
+ er that occurred on a Native American reservation.\nDirector: Taylor Sheri
+ dan\nActors: Elizabeth Olsen | Jeremy Renner | Jon Bernthal | Martin Sensm
+ eier |Link:http://www.imdb.com/title/tt5362988
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Annabelle 2 (2017)
+DTSTART;VALUE=DATE-TIME:20170811T210000
+DTEND;VALUE=DATE-TIME:20170811T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120421Z
+DESCRIPTION:Rating: \nGenre: Horror | Mystery | Thriller |\nDescription: S
+ everal years after the tragic death of their little girl\, a dollmaker and
+  his wife welcome a nun and several girls from a shuttered orphanage into 
+ their home\, soon becoming the target of the dollmaker's possessed creatio
+ n\, Annabelle.\nDirector: David F. Sandberg\nActors: Miranda Otto | Philip
+ pa Coulthard | Stephanie Sigman | Anthony LaPaglia |Link:http://www.imdb.c
+ om/title/tt5140878
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Glass Castle (2017)
+DTSTART;VALUE=DATE-TIME:20170811T210000
+DTEND;VALUE=DATE-TIME:20170811T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120421Z
+DESCRIPTION:Rating: \nGenre: Biography | Drama |\nDescription: A young gir
+ l comes of age in a dysfunctional family of nonconformist nomads with a mo
+ ther who's an eccentric artist and an alcoholic father who would stir the 
+ children's imagination with hope as a distraction to their poverty.\nDirec
+ tor: Destin Daniel Cretton\nActors: Brie Larson | Naomi Watts | Woody Harr
+ elson | Iain Armitage |Link:http://www.imdb.com/title/tt2378507
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Nut Job 2: Nutty by Nature (2017)
+DTSTART;VALUE=DATE-TIME:20170811T210000
+DTEND;VALUE=DATE-TIME:20170811T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120422Z
+DESCRIPTION:Rating: \nGenre: Animation | Adventure | Comedy | Family |\nDe
+ scription: Following the events of the first film\, Surly and his friends 
+ must stop Oakton City's mayor from destroying their home to make way for a
+  dysfunctional amusement park.\nDirector: Cal Brunker\nActors: Will Arnett
+  | Katherine Heigl | Maya Rudolph | Jackie Chan |Link:http://www.imdb.com/
+ title/tt3486626
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ingrid Goes West (2017)
+DTSTART;VALUE=DATE-TIME:20170811T210000
+DTEND;VALUE=DATE-TIME:20170811T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120423Z
+DESCRIPTION:Rating: \nGenre: Comedy | Drama |\nDescription: Ingrid Thorbur
+ n is an unhinged social media stalker with a history of confusing "likes" 
+ for meaningful relationships. Taylor Sloane is an Instagram-famous "influe
+ ncer" whose perfectly curated\, boho-chic lifestyle becomes Ingrid's lates
+ t obsession. When Ingrid moves to LA and manages to insinuate herself into
+  the social media star's life\, their relationship quickly goes from #BFF 
+ to #WTF.\nDirector: Matt Spicer\nActors: Aubrey Plaza | Elizabeth Olsen | 
+ O'Shea Jackson Jr. | Wyatt Russell |Link:http://www.imdb.com/title/tt59622
+ 10
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Only Living Boy in New York (2017)
+DTSTART;VALUE=DATE-TIME:20170811T210000
+DTEND;VALUE=DATE-TIME:20170811T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120423Z
+DESCRIPTION:Rating: \nGenre: Drama |\nDescription: Adrift in New York City
+ \, a recent college graduate's life is upended by his father's mistress.\n
+ Director: Marc Webb\nActors: Kate Beckinsale | Pierce Brosnan | Jeff Bridg
+ es | Kiersey Clemons |Link:http://www.imdb.com/title/tt0460890
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Trip to Spain (2017)
+DTSTART;VALUE=DATE-TIME:20170803T210000
+DTEND;VALUE=DATE-TIME:20170803T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120424Z
+DESCRIPTION:Rating: \nGenre: Drama |\nDescription: Steve Coogan and Rob Br
+ ydon embark on a 6 part episodic road trip through Spain. Sampling the res
+ taurants\, eateries and sights along the way.\nDirector: Michael Winterbot
+ tom\nActors: Steve Coogan | Rob Brydon | Marta Barrio | Claire Keelan |Lin
+ k:http://www.imdb.com/title/tt6193424
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Hitman's Bodyguard (2017)
+DTSTART;VALUE=DATE-TIME:20170818T210000
+DTEND;VALUE=DATE-TIME:20170818T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120425Z
+DESCRIPTION:Rating: \nGenre: Action | Comedy |\nDescription: The world's t
+ op bodyguard gets a new client\, a hit man who must testify at the Interna
+ tional Court of Justice. They must put their differences aside and work to
+ gether to make it to the trial on time.\nDirector: Patrick Hughes\nActors:
+  Ryan Reynolds | Salma Hayek | Gary Oldman | Samuel L. Jackson |Link:http:
+ //www.imdb.com/title/tt1959563
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:All Saints (2017)
+DTSTART;VALUE=DATE-TIME:20170825T210000
+DTEND;VALUE=DATE-TIME:20170825T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120425Z
+DESCRIPTION:Rating: \nGenre: Drama |\nDescription: ALL SAINTS is based on 
+ the inspiring true story of salesman-turned-pastor Michael Spurlock (John 
+ Corbett)\, the tiny church he was ordered to shut down\, and a group of re
+ fugees from Southeast Asia. Together\, they risked everything to plant see
+ ds for a future that might just save them all.\nDirector: Steve Gomer\nAct
+ ors: Cara Buono | John Corbett | David Keith | Barry Corbin |Link:http://w
+ ww.imdb.com/title/tt4663548
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Polaroid (2017)
+DTSTART;VALUE=DATE-TIME:20170825T210000
+DTEND;VALUE=DATE-TIME:20170825T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120426Z
+DESCRIPTION:Rating: \nGenre: Horror |\nDescription: Polaroid is styled in 
+ the vein of The Ring and Final Destination and centers on a high school lo
+ ner\, Bird Fitcher\, who stumbles upon a vintage Polaroid camera. Bird soo
+ n learns that the camera houses a terrible secret: whoever has their pictu
+ re taken by it meets a tragic and violent end. The girl and her friends mu
+ st survive one more night as they race to solve the mystery of the haunted
+  Polaroid before it kills them all.\nDirector: Lars Klevberg\nActors: Made
+ laine Petsch | Grace Zabriskie | Kathryn Prescott | Javier Botet |Link:htt
+ p://www.imdb.com/title/tt5598292
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tulip Fever (2017)
+DTSTART;VALUE=DATE-TIME:20170825T210000
+DTEND;VALUE=DATE-TIME:20170825T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120427Z
+DESCRIPTION:Rating: \nGenre: Drama | Romance |\nDescription: An artist fal
+ ls for a young married woman while he's commissioned to paint her portrait
+  during the Tulip mania of 17th century Amsterdam.\nDirector: Justin Chadw
+ ick\nActors: Alicia Vikander | Cara Delevingne | Dane DeHaan | Christoph W
+ altz |Link:http://www.imdb.com/title/tt0491203
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Beach Rats (2017)
+DTSTART;VALUE=DATE-TIME:20170825T210000
+DTEND;VALUE=DATE-TIME:20170825T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120428Z
+DESCRIPTION:Rating: \nGenre: Drama |\nDescription: An aimless teenager on 
+ the outer edges of Brooklyn struggles to escape his bleak home life and na
+ vigate questions of self-identity\, as he balances his time between his de
+ linquent friends\, a potential new girlfriend\, and older men he meets onl
+ ine.\nDirector: Eliza Hittman\nActors: Harris Dickinson | Madeline Weinste
+ in | Kate Hodge | Frank Hakaj |Link:http://www.imdb.com/title/tt6303866
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Renegades (2017)
+DTSTART;VALUE=DATE-TIME:20170901T210000
+DTEND;VALUE=DATE-TIME:20170901T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120429Z
+DESCRIPTION:Rating: \nGenre: Action | Thriller |\nDescription: A team of N
+ avy SEALs discover an underwater treasure in a Bosnian lake.\nDirector: St
+ even Quale\nActors: J.K. Simmons | Sullivan Stapleton | Sylvia Hoeks | Ewe
+ n Bremner |Link:http://www.imdb.com/title/tt4106376
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:It (2017)
+DTSTART;VALUE=DATE-TIME:20170908T210000
+DTEND;VALUE=DATE-TIME:20170908T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120430Z
+DESCRIPTION:Rating: \nGenre: Drama | Horror |\nDescription: In Derry\, Mai
+ ne\, seven friends come face-to-face with a shape shifter\, who takes the 
+ form of an evil clown who targets children.\nDirector: Andrés Muschietti\
+ nActors: Bill Skarsgård | Jaeden Lieberher | Finn Wolfhard | Sophia Lilli
+ s |Link:http://www.imdb.com/title/tt1396484
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:American Assassin (2017)
+DTSTART;VALUE=DATE-TIME:20170915T210000
+DTEND;VALUE=DATE-TIME:20170915T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120431Z
+DESCRIPTION:Rating: \nGenre: Action | Thriller |\nDescription: A story cen
+ tered on counterterrorism agent Mitch Rapp.\nDirector: Michael Cuesta\nAct
+ ors: Taylor Kitsch | Dylan O'Brien | Scott Adkins | Michael Keaton |Link:h
+ ttp://www.imdb.com/title/tt1961175
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Solutrean (2017)
+DTSTART;VALUE=DATE-TIME:20170915T210000
+DTEND;VALUE=DATE-TIME:20170915T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120431Z
+DESCRIPTION:Rating: \nGenre: Action | Drama | Thriller |\nDescription: A s
+ tory of survival set 20\,000 years ago during the last Ice Age.\nDirector:
+  Albert Hughes\nActors: Kodi Smit-McPhee | Leonor Varela | Natassia Malthe
+  | Mercedes de la Zerda |Link:http://www.imdb.com/title/tt4244998
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Kingsman: The Golden Circle (2017)
+DTSTART;VALUE=DATE-TIME:20170922T210000
+DTEND;VALUE=DATE-TIME:20170922T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120432Z
+DESCRIPTION:Rating: \nGenre: Action | Adventure | Comedy |\nDescription: W
+ hen their headquarters are destroyed and the world is held hostage\, the K
+ ingsman's journey leads them to the discovery of an allied spy organizatio
+ n in the US. These two elite secret organizations must band together to de
+ feat a common enemy.\nDirector: Matthew Vaughn\nActors: Taron Egerton | Co
+ lin Firth | Mark Strong | Channing Tatum |Link:http://www.imdb.com/title/t
+ t4649466
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The LEGO Ninjago Movie (2017)
+DTSTART;VALUE=DATE-TIME:20170921T210000
+DTEND;VALUE=DATE-TIME:20170921T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120433Z
+DESCRIPTION:Rating: \nGenre: Animation | Action | Adventure | Comedy | Fam
+ ily |\nDescription: Six young ninjas Lloyd\, Jay\, Kai\, Cole\, Zane and N
+ ya are tasked with defending their island home\, called Ninjago. By night\
+ , they're gifted warriors\, using their skills and awesome fleet of vehicl
+ es to fight villains and monsters. By day\, they're ordinary teens struggl
+ ing against their greatest enemy: high school.\nDirector: Charlie Bean\nAc
+ tors: Olivia Munn | Justin Theroux | Jackie Chan | Dave Franco |Link:http:
+ //www.imdb.com/title/tt3014284
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Battle of the Sexes (2017)
+DTSTART;VALUE=DATE-TIME:20170922T210000
+DTEND;VALUE=DATE-TIME:20170922T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120434Z
+DESCRIPTION:Rating: \nGenre: Biography | Comedy | Sport |\nDescription: Th
+ e true story of the 1973 tennis match between World number one Billie Jean
+  King and ex-champ and serial hustler Bobby Riggs.\nDirector: Jonathan Day
+ ton\nActors: Emma Stone | Andrea Riseborough | Steve Carell | Elisabeth Sh
+ ue |Link:http://www.imdb.com/title/tt4622512
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Friend Request (2016)
+DTSTART;VALUE=DATE-TIME:20160107T210000
+DTEND;VALUE=DATE-TIME:20160107T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120434Z
+DESCRIPTION:Rating: \nGenre: Horror | Thriller |\nDescription: When a coll
+ ege student unfriends a mysterious girl online\, she finds herself fightin
+ g a demonic presence that wants to make her lonely by killing her closest 
+ friends.\nDirector: Simon Verhoeven\nActors: Alycia Debnam-Carey | William
+  Moseley | Connor Paolo | Brit Morgan |Link:http://www.imdb.com/title/tt33
+ 52390
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Granite Mountain (2017)
+DTSTART;VALUE=DATE-TIME:20170921T210000
+DTEND;VALUE=DATE-TIME:20170921T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120435Z
+DESCRIPTION:Rating: \nGenre: Drama |\nDescription: A drama based on the el
+ ite crew of firemen from Prescott\, Arizona who battled a wildfire in Yarn
+ ell\, AZ Iin June 2013 that claimed the lives of 19 of their members.\nDir
+ ector: Joseph Kosinski\nActors: Jennifer Connelly | Josh Brolin | Taylor K
+ itsch | Miles Teller |Link:http://www.imdb.com/title/tt3829920
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Victoria and Abdul (2017)
+DTSTART;VALUE=DATE-TIME:20170915T210000
+DTEND;VALUE=DATE-TIME:20170915T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120436Z
+DESCRIPTION:Rating: \nGenre: Biography | Drama | History |\nDescription: Q
+ ueen Victoria strikes up an an unlikely friendship with a young Indian cle
+ rk named Abdul Karim.\nDirector: Stephen Frears\nActors: Tim Pigott-Smith 
+ | Olivia Williams | Michael Gambon | Judi Dench |Link:http://www.imdb.com/
+ title/tt5816682
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:American Made (2017)
+DTSTART;VALUE=DATE-TIME:20170929T210000
+DTEND;VALUE=DATE-TIME:20170929T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120436Z
+DESCRIPTION:Rating: \nGenre: Crime | Thriller |\nDescription: A pilot land
+ s work for the CIA and as a drug runner in the south during the 1980s.\nDi
+ rector: Doug Liman\nActors: Tom Cruise | Caleb Landry Jones | Domhnall Gle
+ eson | Jesse Plemons |Link:http://www.imdb.com/title/tt3532216
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Flatliners (2017)
+DTSTART;VALUE=DATE-TIME:20170929T210000
+DTEND;VALUE=DATE-TIME:20170929T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120437Z
+DESCRIPTION:Rating: \nGenre: Drama | Horror | Sci-Fi | Thriller |\nDescrip
+ tion: Medical students experiment on "near death" experiences that involve
+  past tragedies until the dark consequences begin to jeopardize their live
+ s.\nDirector: Niels Arden Oplev\nActors: Nina Dobrev | Ellen Page | Diego 
+ Luna | Kiefer Sutherland |Link:http://www.imdb.com/title/tt2039338
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Blade Runner 2049 (2017)
+DTSTART;VALUE=DATE-TIME:20171006T210000
+DTEND;VALUE=DATE-TIME:20171006T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120438Z
+DESCRIPTION:Rating: \nGenre: Sci-Fi | Thriller |\nDescription: Thirty year
+ s after the events of the first film\, a new blade runner\, LAPD Officer K
+  (Ryan Gosling)\, unearths a long-buried secret that has the potential to 
+ plunge what's left of society into chaos. K's discovery leads him on a que
+ st to find Rick Deckard (Harrison Ford)\, a former LAPD blade runner who h
+ as been missing for 30 years.\nDirector: Denis Villeneuve\nActors: Harriso
+ n Ford | Ryan Gosling | Ana de Armas | Dave Bautista |Link:http://www.imdb
+ .com/title/tt1856101
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:My Little Pony: The Movie (2017)
+DTSTART;VALUE=DATE-TIME:20171104T210000
+DTEND;VALUE=DATE-TIME:20171104T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120439Z
+DESCRIPTION:Rating: \nGenre: Animation | Adventure | Comedy | Family | Fan
+ tasy | Musical |\nDescription: When a dark force threatens Ponyville and t
+ he Mane 6\, they go on a journey to the end of Equestria to save their bel
+ oved home and they meet new friends and dangerous challenges along the way
+ .\nDirector: Jayson Thiessen\nActors: Zoe Saldana | Emily Blunt | Kristin 
+ Chenoweth | Liev Schreiber |Link:http://www.imdb.com/title/tt4131800
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Snowman (2017)
+DTSTART;VALUE=DATE-TIME:20171013T210000
+DTEND;VALUE=DATE-TIME:20171013T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120439Z
+DESCRIPTION:Rating: \nGenre: Crime | Drama | Mystery |\nDescription: Detec
+ tive Harry Hole investigates the disappearance of a woman whose pink scarf
+  is found wrapped around an ominous-looking snowman.\nDirector: Tomas Alfr
+ edson\nActors: Michael Fassbender | Jamie Clayton | Rebecca Ferguson | Val
+  Kilmer |Link:http://www.imdb.com/title/tt1758810
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mother! (2017)
+DTSTART;VALUE=DATE-TIME:20171013T210000
+DTEND;VALUE=DATE-TIME:20171013T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120440Z
+DESCRIPTION:Rating: \nGenre: Drama | Horror | Mystery | Thriller |\nDescri
+ ption: Centers on a couple whose relationship is tested when uninvited gue
+ sts arrive at their home\, disrupting their tranquil existence.\nDirector:
+  Darren Aronofsky\nActors: Jennifer Lawrence | Javier Bardem | Ed Harris |
+  Michelle Pfeiffer |Link:http://www.imdb.com/title/tt5109784
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Marshall (2017)
+DTSTART;VALUE=DATE-TIME:20171013T210000
+DTEND;VALUE=DATE-TIME:20171013T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120441Z
+DESCRIPTION:Rating: \nGenre: Biography | Drama |\nDescription: About a you
+ ng Thurgood Marshall\, the first African American Supreme Court Justice\, 
+ as he battles through one of his career-defining cases.\nDirector: Reginal
+ d Hudlin\nActors: Dan Stevens | Sophia Bush | Kate Hudson | Josh Gad |Link
+ :http://www.imdb.com/title/tt5301662
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Foreigner (2017)
+DTSTART;VALUE=DATE-TIME:20170930T210000
+DTEND;VALUE=DATE-TIME:20170930T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120442Z
+DESCRIPTION:Rating: \nGenre: Action | Thriller |\nDescription: The IRA too
+ k his family. The police looked the other way. Now he must get revenge.\nD
+ irector: Martin Campbell\nActors: Pierce Brosnan | Jackie Chan | Charlie M
+ urphy | Rory Fleck Byrne |Link:http://www.imdb.com/title/tt1615160
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Insidious: Chapter 4 (2018)
+DTSTART;VALUE=DATE-TIME:20180105T210000
+DTEND;VALUE=DATE-TIME:20180105T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120443Z
+DESCRIPTION:Rating: \nGenre: Horror | Mystery | Thriller |\nDescription: P
+ lot unknown. The fourth installment of the 'Insidious' franchise.\nDirecto
+ r: Adam Robitel\nActors: Jerrika Hinton | Javier Botet | Josh Stewart | Li
+ n Shaye |Link:http://www.imdb.com/title/tt5726086
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Geostorm (2017)
+DTSTART;VALUE=DATE-TIME:20171020T210000
+DTEND;VALUE=DATE-TIME:20171020T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120443Z
+DESCRIPTION:Rating: \nGenre: Action | Sci-Fi | Thriller |\nDescription: Wh
+ en the network of satellites designed to control the global climate start 
+ to attack Earth\, it's a race against the clock to uncover the real threat
+  before a worldwide geostorm wipes out everything and everyone.\nDirector:
+  Dean Devlin\nActors: Gerard Butler | Abbie Cornish | Jim Sturgess | Ed Ha
+ rris |Link:http://www.imdb.com/title/tt1981128
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Mountain Between Us (2017)
+DTSTART;VALUE=DATE-TIME:20171020T210000
+DTEND;VALUE=DATE-TIME:20171020T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120445Z
+DESCRIPTION:Rating: \nGenre: Drama | Romance |\nDescription: Stranded afte
+ r a tragic plane crash\, two strangers must forge a connection to survive 
+ the extreme elements of a remote snow covered mountain.\nDirector: Hany Ab
+ u-Assad\nActors: Idris Elba | Kate Winslet | Dermot Mulroney | Beau Bridge
+ s |Link:http://www.imdb.com/title/tt2226597
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Same Kind of Different as Me (2017)
+DTSTART;VALUE=DATE-TIME:20171020T210000
+DTEND;VALUE=DATE-TIME:20171020T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120446Z
+DESCRIPTION:Rating: \nGenre: Drama |\nDescription: International art deale
+ r Ron Hall must befriend a dangerous homeless man in order to save his str
+ uggling marriage to his wife\, a woman whose dreams will lead all three of
+  them on the journey of their lives.\nDirector: Michael Carney\nActors: Re
+ née Zellweger | Djimon Hounsou | Jon Voight | Olivia Holt |Link:http://ww
+ w.imdb.com/title/tt1230168
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:War with Grandpa (2017)
+DTSTART;VALUE=DATE-TIME:20171020T210000
+DTEND;VALUE=DATE-TIME:20171020T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120446Z
+DESCRIPTION:Rating: \nGenre: Comedy | Family |\nDescription: Upset that he
+  has to share the room he loves with his grandfather\, Peter decides to de
+ clare war in an attempt to get it back.\nDirector: Tim Hill\nActors: Rober
+ t De Niro | Uma Thurman | Jane Seymour | Christopher Walken |Link:http://w
+ ww.imdb.com/title/tt4532038
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wonderstruck (2017)
+DTSTART;VALUE=DATE-TIME:20171115T210000
+DTEND;VALUE=DATE-TIME:20171115T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120447Z
+DESCRIPTION:Rating: \nGenre: Drama | Family | Mystery |\nDescription: The 
+ story of a young boy in the Midwest is told simultaneously with a tale abo
+ ut a young girl in New York from fifty years ago as they both seek the sam
+ e mysterious connection.\nDirector: Todd Haynes\nActors: Oakes Fegley | Ju
+ lianne Moore | Michelle Williams | Millicent Simmonds |Link:http://www.imd
+ b.com/title/tt5208216
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Saw: Legacy (2017)
+DTSTART;VALUE=DATE-TIME:20171027T210000
+DTEND;VALUE=DATE-TIME:20171027T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120448Z
+DESCRIPTION:Rating: \nGenre: Horror | Thriller |\nDescription: Dead bodies
+  begin to turn up all over the city\, each meeting their demise in a varie
+ ty of grisly ways. All investigations begin to point the finger at decease
+ d killer John Kramer.\nDirector: Michael Spierig\nActors: Laura Vandervoor
+ t | Tobin Bell | Callum Keith Rennie | Matt Passmore |Link:http://www.imdb
+ .com/title/tt3348730
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cloverfield Movie (2017)
+DTSTART;VALUE=DATE-TIME:20171027T210000
+DTEND;VALUE=DATE-TIME:20171027T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120448Z
+DESCRIPTION:Rating: \nGenre: Horror | Mystery | Sci-Fi | Thriller |\nDescr
+ iption: A shocking discovery forces a team of astronauts aboard a space st
+ ation to fight for survival while their reality has been altered.\nDirecto
+ r: Julius Onah\nActors: Elizabeth Debicki | Gugu Mbatha-Raw | Daniel Brüh
+ l | Ziyi Zhang |Link:http://www.imdb.com/title/tt2548396
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Thor: Ragnarök (2017)
+DTSTART;VALUE=DATE-TIME:20171103T210000
+DTEND;VALUE=DATE-TIME:20171103T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120449Z
+DESCRIPTION:Rating: \nGenre: Action | Adventure | Fantasy | Sci-Fi |\nDesc
+ ription: Imprisoned\, the mighty Thor finds himself in a lethal gladiatori
+ al contest against the Hulk\, his former ally. Thor must fight for surviva
+ l and race against time to prevent the all-powerful Hela from destroying h
+ is home and the Asgardian civilization.\nDirector: Taika Waititi\nActors: 
+ Chris Hemsworth | Tom Hiddleston | Cate Blanchett | Mark Ruffalo |Link:htt
+ p://www.imdb.com/title/tt3501632
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bad Mom's Christmas (2017)
+DTSTART;VALUE=DATE-TIME:20171103T210000
+DTEND;VALUE=DATE-TIME:20171103T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120450Z
+DESCRIPTION:Rating: \nGenre: Comedy |\nDescription: Amy\, Carla and Kiki s
+ truggle to cope when their respective mothers visit for the holidays.\nDir
+ ector: Jon Lucas\nActors: Kathryn Hahn | Mila Kunis | Kristen Bell | Jay H
+ ernandez |Link:http://www.imdb.com/title/tt6359956
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Killing of a Sacred Deer (2017)
+DTSTART;VALUE=DATE-TIME:20171012T210000
+DTEND;VALUE=DATE-TIME:20171012T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120451Z
+DESCRIPTION:Rating: \nGenre: Drama | Horror | Mystery | Thriller |\nDescri
+ ption: A teenager's attempts to bring a brilliant surgeon into his dysfunc
+ tional family take an unexpected turn.\nDirector: Yorgos Lanthimos\nActors
+ : Alicia Silverstone | Nicole Kidman | Colin Farrell | Raffey Cassidy |Lin
+ k:http://www.imdb.com/title/tt5715874
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Daddy's Home 2 (2017)
+DTSTART;VALUE=DATE-TIME:20171110T210000
+DTEND;VALUE=DATE-TIME:20171110T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120452Z
+DESCRIPTION:Rating: \nGenre: Comedy |\nDescription: Plot unknown. A follow
+ -up to the 2015 comedy 'Daddy's Home.\nDirector: Sean Anders\nActors: Lind
+ a Cardellini | Mark Wahlberg | Mel Gibson | Will Ferrell |Link:http://www.
+ imdb.com/title/tt5657846
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Red Sparrow (2018)
+DTSTART;VALUE=DATE-TIME:20180302T210000
+DTEND;VALUE=DATE-TIME:20180302T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120452Z
+DESCRIPTION:Rating: \nGenre: Thriller |\nDescription: A sexy Russian spy f
+ alls for a CIA officer and considers becoming a double agent.\nDirector: F
+ rancis Lawrence\nActors: Jennifer Lawrence | Mary-Louise Parker | Joel Edg
+ erton | Jeremy Irons |Link:http://www.imdb.com/title/tt2873282
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Star (2017)
+DTSTART;VALUE=DATE-TIME:20171110T210000
+DTEND;VALUE=DATE-TIME:20171110T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120453Z
+DESCRIPTION:Rating: \nGenre: Animation | Adventure | Comedy | Family | Fan
+ tasy |\nDescription: A small but brave donkey and his animal friends becom
+ e the unsung heroes of the first Christmas.\nDirector: Timothy Reckart\nAc
+ tors: Gina Rodriguez | Kristin Chenoweth | Zachary Levi | Ving Rhames |Lin
+ k:http://www.imdb.com/title/tt4587656
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Justice League (2017)
+DTSTART;VALUE=DATE-TIME:20171117T210000
+DTEND;VALUE=DATE-TIME:20171117T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120454Z
+DESCRIPTION:Rating: \nGenre: Action | Adventure | Fantasy | Sci-Fi |\nDesc
+ ription: Fueled by his restored faith in humanity and inspired by Superman
+ 's selfless act\, Bruce Wayne enlists the help of his newfound ally\, Dian
+ a Prince\, to face an even greater enemy.\nDirector: Zack Snyder\nActors: 
+ Ben Affleck | Gal Gadot | Jason Momoa | Ezra Miller |Link:http://www.imdb.
+ com/title/tt0974015
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wonder (2017)
+DTSTART;VALUE=DATE-TIME:20171117T210000
+DTEND;VALUE=DATE-TIME:20171117T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120454Z
+DESCRIPTION:Rating: \nGenre: Drama |\nDescription: Based on the New York T
+ imes bestseller\, WONDER tells the incredibly inspiring and heartwarming s
+ tory of August Pullman\, a boy with facial differences who enters fifth gr
+ ade\, attending a mainstream elementary school for the first time.\nDirect
+ or: Stephen Chbosky\nActors: Julia Roberts | Owen Wilson | Jacob Tremblay 
+ | Daveed Diggs |Link:http://www.imdb.com/title/tt2543472
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Coco (2017)
+DTSTART;VALUE=DATE-TIME:20171122T210000
+DTEND;VALUE=DATE-TIME:20171122T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120455Z
+DESCRIPTION:Rating: \nGenre: Animation | Adventure | Comedy | Family | Fan
+ tasy | Horror | Musical | Mystery |\nDescription: Coco follows a 12-year-o
+ ld boy named Miguel who sets off a chain of events relating to a century-o
+ ld mystery\, leading to an extraordinary family reunion.\nDirector: Lee Un
+ krich\nActors: Benjamin Bratt | Gael García Bernal | Renee Victor | Antho
+ ny Gonzalez |Link:http://www.imdb.com/title/tt2380307
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Murder on the Orient Express (2017)
+DTSTART;VALUE=DATE-TIME:20171110T210000
+DTEND;VALUE=DATE-TIME:20171110T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120456Z
+DESCRIPTION:Rating: \nGenre: Crime | Drama | Mystery |\nDescription: A lav
+ ish train ride through Europe quickly unfolds into the thrilling mystery o
+ f thirteen strangers stranded on a train\, where everyone's a suspect. One
+  man must race against time to solve the puzzle before the murderer strike
+ s again.\nDirector: Kenneth Branagh\nActors: Johnny Depp | Michelle Pfeiff
+ er | Daisy Ridley | Penélope Cruz |Link:http://www.imdb.com/title/tt34022
+ 36
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Call Me by Your Name (2017)
+DTSTART;VALUE=DATE-TIME:20171124T210000
+DTEND;VALUE=DATE-TIME:20171124T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120457Z
+DESCRIPTION:Rating: \nGenre: Drama | Romance |\nDescription: Summer of 198
+ 3\, Northern Italy. An American-Italian is enamored by an American student
+  who comes to study and live with his family. Together they share an unfor
+ gettable summer full of music\, food\, and romance that will forever chang
+ e them.\nDirector: Luca Guadagnino\nActors: Elena Bucci | Vanda Capriolo |
+  Amira Casar | Timothée Chalamet |Link:http://www.imdb.com/title/tt572661
+ 6
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Darkest Hour (2017)
+DTSTART;VALUE=DATE-TIME:20180112T210000
+DTEND;VALUE=DATE-TIME:20180112T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120458Z
+DESCRIPTION:Rating: \nGenre: Biography | Drama | History | War |\nDescript
+ ion: Within days of becoming Prime Minister\, Winston Churchill must face 
+ his most turbulent and defining trial: exploring a negotiated peace treaty
+  with Nazi Germany\, or standing firm to fight for the ideals\, liberty an
+ d freedom of a nation.\nDirector: Joe Wright\nActors: Lily James | Gary Ol
+ dman | Ben Mendelsohn | Stephen Dillane |Link:http://www.imdb.com/title/tt
+ 4555426
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:He's Out There (2017)
+DTSTART;VALUE=DATE-TIME:20171127T210000
+DTEND;VALUE=DATE-TIME:20171127T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120459Z
+DESCRIPTION:Rating: \nGenre: Horror |\nDescription: On vacation at a remot
+ e lake house\, a mother and her two young daughters must fight for surviva
+ l after falling into a terrifying and bizarre nightmare conceived by a psy
+ chopath.\nDirector: Dennis Iliadis\nActors: Yvonne Strahovski | Justin Bru
+ ening | Abigail Pniowsky | Julian Bailey |Link:http://www.imdb.com/title/t
+ t4052050
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Star Wars: The Last Jedi (2017)
+DTSTART;VALUE=DATE-TIME:20171215T210000
+DTEND;VALUE=DATE-TIME:20171215T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120500Z
+DESCRIPTION:Rating: \nGenre: Action | Adventure | Fantasy | Sci-Fi |\nDesc
+ ription: Having taken her first steps into a larger world in Star Wars: Ep
+ isode VII - The Force Awakens (2015)\, Rey continues her epic journey with
+  Finn\, Poe and Luke Skywalker in the next chapter of the saga.\nDirector:
+  Rian Johnson\nActors: Daisy Ridley | John Boyega | Mark Hamill | Carrie F
+ isher |Link:http://www.imdb.com/title/tt2527336
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ferdinand (2017)
+DTSTART;VALUE=DATE-TIME:20171215T210000
+DTEND;VALUE=DATE-TIME:20171215T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120500Z
+DESCRIPTION:Rating: \nGenre: Animation | Adventure | Comedy | Family | Fan
+ tasy |\nDescription: After Ferdinand\, a bull with a big heart\, is mistak
+ en for a dangerous beast\, he is captured and torn from his home. Determin
+ ed to return to his family\, he rallies a misfit team on the ultimate adve
+ nture.\nDirector: Carlos Saldanha\nActors: Kate McKinnon | Bobby Cannavale
+  | John Cena | Miguel Ángel Silvestre |Link:http://www.imdb.com/title/tt3
+ 411444
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jumanji: Welcome to the Jungle (2017)
+DTSTART;VALUE=DATE-TIME:20171220T210000
+DTEND;VALUE=DATE-TIME:20171220T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120501Z
+DESCRIPTION:Rating: \nGenre: Adventure | Family | Fantasy |\nDescription: 
+ In a brand new Jumanji adventure\, four high school kids discover an old v
+ ideo game console and are drawn into the game's jungle setting\, literally
+  becoming the adult avatars they chose. What they discover is that you don
+ 't just play Jumanji - you must survive it. To beat the game and return to
+  the real world\, they'll have to go on the most dangerous adventure of th
+ eir lives\, discover what Alan Parrish left 20 years ago\, and change the 
+ way they think about themselves - or they'll be stuck in the game forever.
+ \nDirector: Jake Kasdan\nActors: Karen Gillan | Dwayne Johnson | Bobby Can
+ navale | Kevin Hart |Link:http://www.imdb.com/title/tt2283362
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pitch Perfect 3 (2017)
+DTSTART;VALUE=DATE-TIME:20171222T210000
+DTEND;VALUE=DATE-TIME:20171222T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120502Z
+DESCRIPTION:Rating: \nGenre: Comedy | Music |\nDescription: Plot undisclos
+ ed.\nDirector: Trish Sie\nActors: Ruby Rose | Anna Kendrick | Hailee Stein
+ feld | Elizabeth Banks |Link:http://www.imdb.com/title/tt4765284
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Downsizing (2017)
+DTSTART;VALUE=DATE-TIME:20171222T210000
+DTEND;VALUE=DATE-TIME:20171222T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120503Z
+DESCRIPTION:Rating: \nGenre: Comedy | Drama |\nDescription: A social satir
+ e in which a guy realizes he would have a better life if he were to shrink
+  himself.\nDirector: Alexander Payne\nActors: Matt Damon | Kristen Wiig | 
+ Laura Dern | Niecy Nash |Link:http://www.imdb.com/title/tt1389072
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Greatest Showman (2017)
+DTSTART;VALUE=DATE-TIME:20171225T210000
+DTEND;VALUE=DATE-TIME:20171225T220000
+DTSTAMP;VALUE=DATE-TIME:20170524T120505Z
+DESCRIPTION:Rating: \nGenre: Biography | Drama | Musical |\nDescription: T
+ he story of P.T Barnum\, a visionary who rose from nothing to create a mes
+ merizing spectacle that became a worldwide sensation.\nDirector: Michael G
+ racey\nActors: Zac Efron | Hugh Jackman | Rebecca Ferguson | Michelle Will
+ iams |Link:http://www.imdb.com/title/tt1485796
 END:VEVENT
 END:VCALENDAR
