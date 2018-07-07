@@ -3,3 +3,4 @@ icalendar
 requests
 datetime
 boto3
+lxml

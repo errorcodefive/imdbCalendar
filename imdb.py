@@ -10,6 +10,7 @@ import smtplib
 import boto3
 import sys
 import os
+import lxml
 
 class MovieInfo:
 	name=""
@@ -50,7 +51,7 @@ for i in range(0,9):
 	r = requests.get(url)
 	
 	data = r.text
-	soup = BeautifulSoup(data, "html5lib")
+	soup = BeautifulSoup(data, "lxml")
 	rawHTML=soup.prettify()
 	
 	movieDiv = soup.div.find_all('div', class_='list_item', itemtype="http://schema.org/Movie")
@@ -101,7 +102,7 @@ for m in movieClass:
 	try:
 		r = requests.get(url)
 		mData = r.text
-		mSoup = BeautifulSoup(mData, 'html5lib')
+		mSoup = BeautifulSoup(mData, 'lxml')
 		try:
 			m.temp = mSoup.find(name = "meta", itemprop="datePublished")['content']
 		except TypeError:
