@@ -137,4 +137,4 @@ print("ACCESSKEY: " + ACCESS_KEY_ID)
 
 s3 = boto3.resource('s3', aws_access_key_id = ACCESS_KEY_ID, aws_secret_access_key=ACCESS_SECRET_KEY)
 data = cal.to_ical()
-s3.Bucket('kc-calendars').put_object(Key="movie_calendar.ics", Body = data)
+s3.Bucket('kc-calendars').put_object(Key="movie_calendar.ics", Body = data, ACL = 'public-read')
