@@ -11,6 +11,8 @@ import boto3
 import sys
 import os
 import lxml
+import uuid
+
 
 class MovieInfo:
 	name=""
@@ -125,6 +127,7 @@ for m in movieClass:
 				event.add('dtstart',datetime.datetime(int(m.rel_year),int(m.rel_month),int(m.rel_day),21,0,0))
 				event.add('dtend',datetime.datetime(int(m.rel_year),int(m.rel_month),int(m.rel_day),22,0,0))
 				event.add('dtstamp',datetime.datetime.now())
+				event['uid']=uuid.uuid4()
 				cal.add_component(event)
 	except URLError:
 		print("URLError")
