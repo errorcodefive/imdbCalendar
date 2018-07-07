@@ -1,16 +1,15 @@
 from bs4 import BeautifulSoup
 
-import os
 from icalendar import Calendar, Event
 import time
 import requests
 
-import lxml
 import datetime
 import smtplib
 
 import boto3
 import sys
+import os
 
 class MovieInfo:
 	name=""
@@ -130,8 +129,11 @@ for m in movieClass:
 		print("URLError")
 print ("done")
 
-ACCESS_KEY_ID = sys.argv[1]
-ACCESS_SECRET_KEY = sys.argv[2]
+ACCESS_KEY_ID = os.environ['AWS_ACCESS_KEY']
+ACCESS_SECRET_KEY = os.environ['AWS_SECRET_KEY']
+
+print("ACCESSKEY: " + ACCESS_KEY_ID)
+
 s3 = boto3.resource('s3', aws_access_key_id = ACCESS_KEY_ID, aws_secret_access_key=ACCESS_SECRET_KEY)
 data = cal.to_ical()
 s3.Bucket('kc-calendars').put_object(Key="movie_calendar.ics", Body = data)

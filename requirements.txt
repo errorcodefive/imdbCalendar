@@ -1,0 +1,5 @@
+bs4
+icalendar
+requests
+datetime
+boto3
