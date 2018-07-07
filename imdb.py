@@ -39,31 +39,22 @@ def lambda_function(event, context):
 	today_date = time.strftime("%d")
 	today_month=time.strftime("%m")
 	today_year = time.strftime("%Y")
-	print("Day: " + today_date)
-	print("Month: " + today_month)
-	print("Year: " + today_year)
-	
+	startMo = int(event['start'])
+	endMo = int(event['end'])
 	movieClass = []
-	for i in range(0,9):
+	for i in range(startMo, endMo):
 		url = "http://www.imdb.com/movies-coming-soon/"+str(today_year) + "-"+str(today_month).zfill(2)+"/?ref_=cs_dt_nx"
 		today_month = int(today_month)+1
 		if int(today_month) == 13:
 			today_month = 1
 			today_year = int(today_year)+1
-			
-		print ("opening URL: " + url)
+
 		r = requests.get(url)
-		print("Request received from URL")
-		print("Request status_code: " + str(r.status_code))
-		print("Request url: " + str(r.url))
-		print("Request history: " + str(r.history))
-		print("Request headers: " + str(r.headers))
 		
 		data = r.text
-		soup = BeautifulSoup(data, "html.parser")
+		soup = BeautifulSoup(data, "html5lib")
 		rawHTML=soup.prettify()
-	
-	
+		
 		movieDiv = soup.div.find_all('div', class_='list_item', itemtype="http://schema.org/Movie")
 		print(len(movieDiv))
 		try:
@@ -100,11 +91,7 @@ def lambda_function(event, context):
 					#print("Movie ID: " + tempMov.IMDB)
 			if tempMov.name:
 				movieClass.append(tempMov)
-				print("Movie info: " + tempMov.outToString())
-	print ("Movie Info Created")
-	
-	
-	
+				
 	cal = Calendar()
 	cal.add('prodid', 'IMDB Movie Releases')
 	cal.add('version', '1.0')
@@ -112,19 +99,15 @@ def lambda_function(event, context):
 	for m in movieClass:
 		movie_count +=1
 		getError = False
-		print ("Movie Count: " + str(movie_count))
 		url = "http://www.imdb.com/title/"+m.IMDB
-		print ("Movie URL: " + url)
 		try:
 			r = requests.get(url)
 			mData = r.text
-			mSoup = BeautifulSoup(mData, 'html.parser')
-			print ("Movie HTML Loaded")
+			mSoup = BeautifulSoup(mData, 'html5lib')
 			try:
 				m.temp = mSoup.find(name = "meta", itemprop="datePublished")['content']
 			except TypeError:
 				getError = True
-				print ("Error")
 				
 			if getError == False:
 				print ("M.temp: " + m.temp)
@@ -145,11 +128,12 @@ def lambda_function(event, context):
 					event.add('dtstamp',datetime.datetime.now())
 					cal.add_component(event)
 		except URLError:
-			print ("Timeout")
+			print("URLError")
 	print ("done")
+
 	ACCESS_KEY_ID = os.environ['env_access_key_id']
 	ACCESS_SECRET_KEY = os.environ['env_secret_access_key']
 	s3 = boto3.resource('s3', aws_access_key_id = ACCESS_KEY_ID, aws_secret_access_key=ACCESS_SECRET_KEY)
-	data = open('./IMDB.ics','wb')
+	data = cal.to_ical()
 	s3.Bucket('kc-calendars').put_object(Key="movie_calendar.ics", Body = data)
-	data.close()
+	
