@@ -95,7 +95,7 @@ for i in range(0,9):
 			
 cal = Calendar()
 cal.add('prodid', 'IMDB Movie Releases')
-cal.add('version', '1.0')
+cal.add('version', '2.0')
 movie_count = 0
 for m in movieClass:
 	movie_count +=1
