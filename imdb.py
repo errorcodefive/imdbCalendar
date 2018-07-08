@@ -43,7 +43,7 @@ today_month=time.strftime("%m")
 today_year = time.strftime("%Y")
 
 movieClass = []
-for i in range(0,9):
+for i in range(0,3):
 	url = "http://www.imdb.com/movies-coming-soon/"+str(today_year) + "-"+str(today_month).zfill(2)+"/?ref_=cs_dt_nx"
 	today_month = int(today_month)+1
 	if int(today_month) == 13:
@@ -132,12 +132,17 @@ for m in movieClass:
 	except URLError:
 		print("URLError")
 print ("done")
+try:
+	ACCESS_KEY_ID = os.environ['AWS_ACCESS_KEY']
+except KeyError:
+	ACCESS_KEY_ID = str(sys.argv[1])
+try:
+	ACCESS_SECRET_KEY = os.environ['AWS_SECRET_KEY']
+except KeyError:
+	ACCESS_SECRET_KEY = sys.argv[2]
 
-ACCESS_KEY_ID = os.environ['AWS_ACCESS_KEY']
-ACCESS_SECRET_KEY = os.environ['AWS_SECRET_KEY']
-
-print("ACCESSKEY: " + ACCESS_KEY_ID)
-
+print("access key: " + ACCESS_KEY_ID)
+print("access secret: " + ACCESS_SECRET_KEY)
 s3 = boto3.resource('s3', aws_access_key_id = ACCESS_KEY_ID, aws_secret_access_key=ACCESS_SECRET_KEY)
 data = cal.to_ical()
 s3.Bucket('kc-calendars').put_object(Key="movie_calendar.ics", Body = data, ACL = 'public-read')
