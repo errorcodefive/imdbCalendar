@@ -13,6 +13,7 @@ import os
 import lxml
 import uuid
 
+import json
 
 class MovieInfo:
 	name=""
@@ -43,7 +44,7 @@ today_month=time.strftime("%m")
 today_year = time.strftime("%Y")
 
 movieClass = []
-for i in range(0,9):
+for i in range(0,1):
 	url = "http://www.imdb.com/movies-coming-soon/"+str(today_year) + "-"+str(today_month).zfill(2)+"/?ref_=cs_dt_nx"
 	today_month = int(today_month)+1
 	if int(today_month) == 13:
@@ -57,37 +58,39 @@ for i in range(0,9):
 	rawHTML=soup.prettify()
 	
 	movieDiv = soup.div.find_all('div', class_='list_item', itemtype="http://schema.org/Movie")
-	print(len(movieDiv))
+	#print(len(movieDiv))
 	try:
 		movieDiv.pop()
 	except IndexError:
 		print("IndexError, movieDiv is empty")
 	for mov in movieDiv:
 		tempMov = MovieInfo()
-		tempMov.name = mov.find(name = "a", itemprop="url").get_text().strip()
+		#print(mov.find(name="h4"))
+		tempMov.name = mov.find(name = "h4").a.get_text().strip() #working Sep 2018
 		#print("Movie Name: "+ tempMov.name)
-		if mov.find(name = "span", itemprop="contentRating"):
-			tempMov.rating=mov.find(name = "span", itemprop="contentRating").get_text().strip()
+		if mov.find(name = "span", class_="certRating"):
+			tempMov.rating=mov.find(name = "span", class_="certRating").get_text().strip() #working Sep 2018
 			#print("Movie Rating: "+ tempMov.rating)
 
-		if mov.find_all(name = "span", itemprop = "genre"):
-			tempMov.genre = mov.find_all(name = "span", itemprop = "genre")
-			#print("Movie Genre: " + setToString(tempMov.genre))
+		if mov.find(name="p", class_="cert-runtime-genre").find_all(name = "span", itemprop = ""):
+			tempMov.genre = mov.find(name="p", class_="cert-runtime-genre").find_all(name = "span", itemprop = "") #Working Sep 2018
+			#print("Movie Genre: " + setToString(tempMov.genre[1:]))
 
-		if mov.find(name = "div", itemprop = "description"):
-			tempMov.desc=mov.find(name = "div", itemprop = "description").get_text().strip()
+		if mov.find(name = "div", class_ = "outline"):
+			tempMov.desc=mov.find(name = "div", class_ = "outline").get_text().strip() #working Sep 2018
 			#print("Movie Desc: " + tempMov.desc)
 
-		if mov.find(name = "span", itemprop="director"):
-			tempMov.direct = mov.find(name = "span", itemprop="director").span.a.get_text().strip()
+		if mov.find_all(name = "div", class_="txt-block")[0].span.a:
+			tempMov.direct = mov.find_all(name = "div", class_="txt-block")[0].span.a.get_text().strip() #working Sep 2018
 			#print("Movie Direct: " + tempMov.direct)
-		if mov.find_all(name = "span", itemprop = "actors"):
-			tempMov.actors = mov.find_all(name = "span", itemprop = "actors")
+		if mov.find_all(name = "div", class_="txt-block")[1].find_all(name="a"):
+
+			tempMov.actors = mov.find_all(name = "div", class_="txt-block")[1].find_all(name="a") #working Sep 2018
 			#print("Movie Actors: " + setToString(tempMov.actors))
 
-		if mov.find(name = "h4", itemprop="name"):
-			if mov.find(name = "h4", itemprop="name").a['href']:
-				temp=mov.find(name = "h4", itemprop="name").a['href']
+		if mov.find(name = "h4"):
+			if mov.find(name = "h4").a['href']:
+				temp=mov.find(name = "h4").a['href']
 				tempMov.IMDB = temp[7:16]
 				#print("Movie ID: " + tempMov.IMDB)
 		if tempMov.name:
@@ -101,12 +104,20 @@ for m in movieClass:
 	movie_count +=1
 	getError = False
 	url = "http://www.imdb.com/title/"+m.IMDB
+	print(url)
 	try:
 		r = requests.get(url)
 		mData = r.text
 		mSoup = BeautifulSoup(mData, 'lxml')
 		try:
-			m.temp = mSoup.find(name = "meta", itemprop="datePublished")['content']
+			#print(mSoup.find(name="script", type="application/ld+json").get_text())
+			#get json script
+			parsed_json = json.loads(mSoup.find(name="script", type="application/ld+json").get_text())
+			#grab the date published
+			#print(parsed_json)
+			#print (mSoup.find(name = "a", title="See more release dates").get_text())
+			#print(parsed_json['datePublished'])
+			m.temp = parsed_json['datePublished']
 		except TypeError:
 			getError = True
 			
@@ -145,4 +156,5 @@ print("access key: " + ACCESS_KEY_ID)
 print("access secret: " + ACCESS_SECRET_KEY)
 s3 = boto3.resource('s3', aws_access_key_id = ACCESS_KEY_ID, aws_secret_access_key=ACCESS_SECRET_KEY)
 data = cal.to_ical()
-s3.Bucket('kc-calendars').put_object(Key="movie_calendar.ics", Body = data, ACL = 'public-read')
+s3.Bucket('kc-calendars').put_object(Key="movie_calendar.ics", Body = data, ContentType='text/calendar', ACL = 'public-read')
+#print (data)
