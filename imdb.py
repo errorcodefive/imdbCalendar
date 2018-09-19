@@ -79,8 +79,8 @@ for i in range(0,9):
 		if mov.find(name = "div", class_ = "outline"):
 			tempMov.desc=mov.find(name = "div", class_ = "outline").get_text().strip() #working Sep 2018
 			#print("Movie Desc: " + tempMov.desc)
-
-		if mov.find_all(name = "div", class_="txt-block")[0].span.a:
+			print(mov.find_all(name="div", class_="txt-block"))
+		if mov.find_all(name = "div", class_="txt-block")[0].span is not None:
 			tempMov.direct = mov.find_all(name = "div", class_="txt-block")[0].span.a.get_text().strip() #working Sep 2018
 			#print("Movie Direct: " + tempMov.direct)
 		if mov.find_all(name = "div", class_="txt-block")[1].find_all(name="a"):
@@ -118,7 +118,7 @@ for m in movieClass:
 			#print (mSoup.find(name = "a", title="See more release dates").get_text())
 			#print(parsed_json['datePublished'])
 			m.temp = parsed_json['datePublished']
-		except TypeError:
+		except (TypeError, KeyError):
 			getError = True
 			
 		if getError == False:
