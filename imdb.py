@@ -106,7 +106,7 @@ for m in movieClass:
 	url = "http://www.imdb.com/title/"+m.IMDB
 	print(url)
 	try:
-		r = requests.get(url)
+		r = requests.get(url, timeout=300)
 		mData = r.text
 		mSoup = BeautifulSoup(mData, 'lxml')
 		try:
@@ -140,7 +140,7 @@ for m in movieClass:
 				event.add('dtstamp',datetime.datetime.now())
 				event['uid']=uuid.uuid4()
 				cal.add_component(event)
-	except URLError:
+	except:
 		print("URLError")
 print ("done")
 try:
