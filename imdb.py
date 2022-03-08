@@ -44,7 +44,7 @@ today_month=time.strftime("%m")
 today_year = time.strftime("%Y")
 
 movieClass = []
-for i in range(0,10):
+for i in range(0,1):
 	url = "http://www.imdb.com/movies-coming-soon/"+str(today_year) + "-"+str(today_month).zfill(2)+"/?ref_=cs_dt_nx"
 	print(url)
 	today_month = int(today_month)+1
@@ -57,17 +57,21 @@ for i in range(0,10):
 	data = r.text
 	soup = BeautifulSoup(data, "lxml")
 	rawHTML=soup.prettify()
-	
-	movieDiv = soup.div.find_all('div', class_='list_item', itemtype="http://schema.org/Movie")
-	#print(len(movieDiv))
+	f=open("rawHTML.txt","a", encoding='utf-8')
+	f.write(rawHTML)
+	f.close()
+	#movieDiv = soup.div.find_all('div', class_='list_item', itemtype="http://schema.org/Movie")
+	movieDiv = soup.find_all('td', class_="overview-top")
+	print(len(movieDiv))
+	#print(movieDiv)
 	try:
 		movieDiv.pop()
 	except IndexError:
 		print("IndexError, movieDiv is empty")
 	for mov in movieDiv:
 		tempMov = MovieInfo()
-		#print(mov.find(name="h4"))
-		tempMov.name = mov.find(name = "h4").a.get_text().strip() #working Sep 2018
+		tempMov.name=mov.find(name="h4").find(name="a").string
+		#print(mov.find(name="h4").find(name="a").string)
 		#print("Movie Name: "+ tempMov.name)
 		if mov.find(name = "span", class_="certRating"):
 			tempMov.rating=mov.find(name = "span", class_="certRating").get_text().strip() #working Sep 2018
