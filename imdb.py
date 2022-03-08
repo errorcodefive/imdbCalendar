@@ -95,7 +95,7 @@ for i in range(0,1):
 		if mov.find(name = "h4"):
 			if mov.find(name = "h4").a['href']:
 				temp=mov.find(name = "h4").a['href']
-				tempMov.IMDB = temp[7:16]
+				tempMov.IMDB = temp[7:17]
 				#print("Movie ID: " + tempMov.IMDB)
 		if tempMov.name:
 			movieClass.append(tempMov)
@@ -110,7 +110,7 @@ for m in movieClass:
 	url = "http://www.imdb.com/title/"+m.IMDB
 	print(url)
 	try:
-		r = requests.get(url, timeout=300)
+		r = requests.get(url, timeout=2000)
 		mData = r.text
 		mSoup = BeautifulSoup(mData, 'lxml')
 		try:
