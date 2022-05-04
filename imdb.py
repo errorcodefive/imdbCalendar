@@ -44,7 +44,7 @@ today_month=time.strftime("%m")
 today_year = time.strftime("%Y")
 
 movieClass = []
-for i in range(0,1):
+for i in range(0,12):
 	url = "http://www.imdb.com/movies-coming-soon/"+str(today_year) + "-"+str(today_month).zfill(2)+"/?ref_=cs_dt_nx"
 	print(url)
 	today_month = int(today_month)+1
