@@ -133,6 +133,7 @@ cal.add('version', '2.0')
 movie_count = 0
 for m in movieClass:
 	temp_m=m
+	temp_m.actors=[]
 	movie_count +=1
 	getError = False
 	url = "http://www.imdb.com/title/"+m.IMDB
