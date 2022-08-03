@@ -35,7 +35,7 @@ def setToString(set):
 	output = ""
 	for i in set:
 		if i:
-			output = output + i.get_text().strip() +" | "
+			output = output + str(i).strip() +" | "
 	return output.strip()
 	
 
@@ -44,6 +44,32 @@ today_month=time.strftime("%m")
 today_year = time.strftime("%Y")
 
 movieClass = []
+
+v2_url="https://www.imdb.com/calendar?region=CA&ref_=rlm"
+r=requests.get(v2_url)
+data=r.text
+soup = BeautifulSoup(data, 'lxml')
+rawHTML=soup.prettify()
+f=open("rawHTML.txt","a", encoding='utf-8')
+f.write(rawHTML)
+f.close()
+movieDiv=soup.find("div", id="main")
+movie_list=movieDiv.find_all("a")
+
+try:
+	movie_list.pop()
+except IndexError:
+	print("IndexError, movie_list is empty")
+
+for mov in movie_list:
+	tempMov=MovieInfo()
+	tempMov.name=mov.string
+	temp=mov['href'].split("/")[2]
+	tempMov.IMDB=temp
+
+	print(tempMov.IMDB)
+	movieClass.append(tempMov)
+""" 
 for i in range(0,12):
 	url = "http://www.imdb.com/movies-coming-soon/"+str(today_year) + "-"+str(today_month).zfill(2)+"/?ref_=cs_dt_nx"
 	print(url)
@@ -100,11 +126,13 @@ for i in range(0,12):
 		if tempMov.name:
 			movieClass.append(tempMov)
 			
+ """
 cal = Calendar()
 cal.add('prodid', 'IMDB Movie Releases')
 cal.add('version', '2.0')
 movie_count = 0
 for m in movieClass:
+	temp_m=m
 	movie_count +=1
 	getError = False
 	url = "http://www.imdb.com/title/"+m.IMDB
@@ -116,36 +144,52 @@ for m in movieClass:
 		try:
 			#print(mSoup.find(name="script", type="application/ld+json").get_text())
 			#get json script
-			parsed_json = json.loads(mSoup.find(name="script", type="application/ld+json").get_text())
+			temp_json=mSoup.find(name="script", type="application/ld+json").string
+			#print(temp_json)
+			try:
+				parsed_json = json.loads(mSoup.find(name="script", type="application/ld+json").string)
+			except:
+				parsed_json=json.loads(temp_json)
 			#grab the date published
 			#print(parsed_json)
 			#print (mSoup.find(name = "a", title="See more release dates").get_text())
 			#print(parsed_json['datePublished'])
-			m.temp = parsed_json['datePublished']
+			
+			temp_m.temp = parsed_json['datePublished']
+			temp_m.rating=parsed_json['contentRating']
+			temp_m.genre=parsed_json['genre']
+			temp_m.desc=parsed_json['description']
+			temp_m.direct=parsed_json['director'][0]['name']
+			for acts in parsed_json['actor']:
+				temp_m.actors.append(acts['name'])
+			
+
+			
 		except (TypeError, KeyError):
 			getError = True
 			
 		if getError == False:
 			print ("M.temp: " + m.temp)
 			if len(m.temp)>8:
-				m.rel_year = m.temp[:4]
-				m.rel_month=m.temp[5:7]
-				m.rel_day=m.temp[8:]
+				temp_m.rel_year = m.temp[:4]
+				temp_m.rel_month=m.temp[5:7]
+				temp_m.rel_day=m.temp[8:]
 				print ("Adding to calendar")
 				event = Event()
-				event.add('summary', m.name)
+				event.add('summary', temp_m.name)
 				
-				print (m.name)
+				print (temp_m.name)
 				print ("\n")
 				
 				event.add('description',m.outToString()+"Link:"+url)
-				event.add('dtstart',datetime.datetime(int(m.rel_year),int(m.rel_month),int(m.rel_day),21,0,0))
-				event.add('dtend',datetime.datetime(int(m.rel_year),int(m.rel_month),int(m.rel_day),22,0,0))
+				event.add('dtstart',datetime.datetime(int(temp_m.rel_year),int(temp_m.rel_month),int(temp_m.rel_day),21,0,0))
+				event.add('dtend',datetime.datetime(int(temp_m.rel_year),int(temp_m.rel_month),int(temp_m.rel_day),22,0,0))
 				event.add('dtstamp',datetime.datetime.now())
 				event['uid']=uuid.uuid4()
 				cal.add_component(event)
-	except:
-		print("URLError")
+				print(temp_m.outToString())
+	except Exception as e:
+		print(e)
 print ("done")
 try:
 	ACCESS_KEY_ID = os.environ['AWS_ACCESS_KEY']
