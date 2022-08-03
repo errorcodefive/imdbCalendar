@@ -194,19 +194,21 @@ for m in movieClass:
 print ("done")
 try:
 	ACCESS_KEY_ID = os.environ['AWS_ACCESS_KEY']
-except KeyError:
+except Exception as e:
 	ACCESS_KEY_ID = str(sys.argv[1])
-	sys.exit(1)
 try:
 	ACCESS_SECRET_KEY = os.environ['AWS_SECRET_KEY']
 except KeyError:
 	ACCESS_SECRET_KEY = sys.argv[2]
-	sys.exit(2)
 
 #print("access key: " + ACCESS_KEY_ID)
 #print("access secret: " + ACCESS_SECRET_KEY)
-s3 = boto3.resource('s3', aws_access_key_id = ACCESS_KEY_ID, aws_secret_access_key=ACCESS_SECRET_KEY)
-data = cal.to_ical()
-s3.Bucket('kc-calendars').put_object(Key="movie_calendar.ics", Body = data, ContentType='text/calendar', ACL = 'public-read')
+try:
+	s3 = boto3.resource('s3', aws_access_key_id = ACCESS_KEY_ID, aws_secret_access_key=ACCESS_SECRET_KEY)
+	data = cal.to_ical()
+	s3.Bucket('kc-calendars').put_object(Key="movie_calendar.ics", Body = data, ContentType='text/calendar', ACL = 'public-read')
+except Exception as e:
+	print(e)
+print("Completed transfer")
 
 sys.exit(0)
