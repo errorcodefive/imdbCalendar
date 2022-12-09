@@ -1,6 +1,9 @@
 from bs4 import BeautifulSoup
-
+from urllib.request import Request, urlopen
 from icalendar import Calendar, Event
+from PyMovieDb import IMDB
+
+
 import time
 import requests
 
@@ -45,17 +48,24 @@ today_year = time.strftime("%Y")
 
 movieClass = []
 
-v2_url="https://www.imdb.com/calendar?region=CA&ref_=rlm"
-r=requests.get(v2_url)
-data=r.text
-soup = BeautifulSoup(data, 'lxml')
+#v2_url="https://www.imdb.com/calendar?region=CA&ref_=rlm"
+v2_url="https://www.imdb.com/calendar/?ref_=rlm&region=&type=MOVIE"
+hdr={'User-Agent': 'Mozilla/5.0'}
+#r=requests.get(v2_url)
+r=Request(v2_url,headers=hdr)
+page=urlopen(r)
+
+print("URL: "+v2_url)
+#data=page.text
+soup = BeautifulSoup(page, 'lxml')
 rawHTML=soup.prettify()
 f=open("rawHTML.txt","a", encoding='utf-8')
 f.write(rawHTML)
 f.close()
-movieDiv=soup.find("div", id="main")
+movieDiv=soup.find("main")
+#movieDiv=soup.find("")
 movie_list=movieDiv.find_all("a")
-
+#print("divs: " + str(movie_list))
 try:
 	movie_list.pop()
 except IndexError:
@@ -67,7 +77,7 @@ for mov in movie_list:
 	temp=mov['href'].split("/")[2]
 	tempMov.IMDB=temp
 
-	print(tempMov.IMDB)
+	#print(tempMov.IMDB)
 	movieClass.append(tempMov)
 """ 
 for i in range(0,12):
@@ -127,6 +137,7 @@ for i in range(0,12):
 			movieClass.append(tempMov)
 			
  """
+imdb=IMDB()
 cal = Calendar()
 cal.add('prodid', 'IMDB Movie Releases')
 cal.add('version', '2.0')
@@ -139,38 +150,18 @@ for m in movieClass:
 	url = "http://www.imdb.com/title/"+m.IMDB
 	print(url)
 	try:
-		r = requests.get(url, timeout=2000)
-		mData = r.text
-		mSoup = BeautifulSoup(mData, 'lxml')
-		try:
-			#print(mSoup.find(name="script", type="application/ld+json").get_text())
-			#get json script
-			temp_json=mSoup.find(name="script", type="application/ld+json").string
-			#print(temp_json)
-			try:
-				parsed_json = json.loads(mSoup.find(name="script", type="application/ld+json").string)
-			except:
-				parsed_json=json.loads(temp_json)
-			#grab the date published
-			#print(parsed_json)
-			#print (mSoup.find(name = "a", title="See more release dates").get_text())
-			#print(parsed_json['datePublished'])
-			
-			temp_m.temp = parsed_json['datePublished']
-			temp_m.rating=parsed_json['contentRating']
-			temp_m.genre=parsed_json['genre']
-			temp_m.desc=parsed_json['description']
-			temp_m.direct=parsed_json['director'][0]['name']
-			for acts in parsed_json['actor']:
-				temp_m.actors.append(acts['name'])
-			
+		temp_json=json.loads(imdb.get_by_id(m.IMDB))
+		print(temp_json)
+		temp_m.temp=temp_json['datePublished']
+		temp_m.rating=temp_json['contentRating']
+		temp_m.genre=temp_json['genre']
+		temp_m.desc=temp_json['description']
+		temp_m.direct=temp_json['director'][0]['name']
+		for acts in temp_json['actor']:
+			temp_m.actors.append(acts['name'])
 
-			
-		except (TypeError, KeyError):
-			getError = True
-			
 		if getError == False:
-			print ("M.temp: " + m.temp)
+			print ("M.temp: " + str(m.temp))
 			if len(m.temp)>8:
 				temp_m.rel_year = m.temp[:4]
 				temp_m.rel_month=m.temp[5:7]
@@ -180,11 +171,11 @@ for m in movieClass:
 				event.add('summary', temp_m.name)
 				
 				print (temp_m.name)
-				print ("\n")
+				#print ("\n")
 				
 				event.add('description',m.outToString()+"Link:"+url)
-				event.add('dtstart',datetime.datetime(int(temp_m.rel_year),int(temp_m.rel_month),int(temp_m.rel_day),21,0,0))
-				event.add('dtend',datetime.datetime(int(temp_m.rel_year),int(temp_m.rel_month),int(temp_m.rel_day),22,0,0))
+				event.add('dtstart',datetime.datetime(int(temp_m.rel_year),int(temp_m.rel_month),int(temp_m.rel_day)))
+				event.add('dtend',datetime.datetime(int(temp_m.rel_year),int(temp_m.rel_month),int(temp_m.rel_day))+datetime.timedelta(days=1))
 				event.add('dtstamp',datetime.datetime.now())
 				event['uid']=uuid.uuid4()
 				cal.add_component(event)

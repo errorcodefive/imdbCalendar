@@ -14,3 +14,4 @@ Requires:
   icalendar
   boto3
   lxml
+  PyMovieDb
