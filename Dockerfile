@@ -1,4 +1,4 @@
-FROM python:3.6.6-jessie
+FROM python:3.1.1
 WORKDIR /app
 COPY ./requirements.txt /app
 ADD ./imdb.py /app
