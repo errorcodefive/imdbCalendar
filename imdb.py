@@ -175,7 +175,7 @@ for m in movieClass:
 				
 				event.add('description',m.outToString()+"Link:"+url)
 				event.add('dtstart',datetime.datetime(int(temp_m.rel_year),int(temp_m.rel_month),int(temp_m.rel_day)))
-				event.add('dtend',datetime.datetime(int(temp_m.rel_year),int(temp_m.rel_month),int(temp_m.rel_day))+datetime.timedelta(days=1))
+				event.add('dtend',datetime.datetime(int(temp_m.rel_year),int(temp_m.rel_month),int(temp_m.rel_day))+datetime.timedelta(hours=1))
 				event.add('dtstamp',datetime.datetime.now())
 				event['uid']=uuid.uuid4()
 				cal.add_component(event)
