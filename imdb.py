@@ -25,7 +25,7 @@ class MovieInfo:
 	temp=""
 	IMDB=""
 	def outToString(self):
-		output = "Name: " + self.name + "\nRating: "+ self.rating +"\nGenre: "+ setToString(self.genre) +"\nDescription: "+ self.desc +"\nDirector: "+self.direct+"\nActors: "+setToString(self.actors)
+		output = "Name: " + str(self.name) + "\nRating: "+ str(self.rating) +"\nGenre: "+ setToString(self.genre) +"\nDescription: "+ str(self.desc) +"\nDirector: "+str(self.direct)+"\nActors: "+setToString(self.actors)
 		return output
 	
 def setToString(set):
@@ -101,6 +101,7 @@ for m in movieClass:
 
 		if getError == False:
 			temp_m.temp=temp_json['datePublished']
+			print(temp_m.temp)
 			temp_m.rating=temp_json['contentRating']
 			temp_m.genre=temp_json['genre']
 			temp_m.desc=temp_json['description']
